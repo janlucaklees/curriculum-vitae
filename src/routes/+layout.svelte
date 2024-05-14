@@ -1,53 +1,18 @@
 <script>
-	import Header from './Header.svelte';
-	import './styles.css';
+	import './styles.scss';
 </script>
 
 <div class="app">
-	<Header />
-
-	<main>
+	<main class="flex mx-auto mt-5 shadow-2xl">
 		<slot />
 	</main>
-
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
 </div>
 
-<style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
+<style lang="postcss">
 	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
+		width: 210mm;
+		height: 297mm;
 
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
+		background-color: #fffffb;
 	}
 </style>
