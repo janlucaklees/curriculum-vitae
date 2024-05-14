@@ -10,17 +10,11 @@
 	src: url(Rubik.woff2) format('woff2');
 }
 
-body {
+:root {
+	--color: #1c1c1c;
+
 	font-family: 'Rubik', sans-serif;
-	font-size: 12px;
+	font-size: 11px;
 
-	color: #1c1c1c;
-}
-
-.bg-benikeshinezumi {
-	background-color: #52433d;
-}
-
-.border-binrojizome {
-	border-color: #3a3226;
+	color: var(--color);
 }

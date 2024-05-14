@@ -3,7 +3,7 @@
 </script>
 
 <div class="app">
-	<main class="flex mx-auto mt-5 shadow-2xl">
+	<main class="flex flex-row-reverse justify-end mx-auto mt-8 mb-8">
 		<slot />
 	</main>
 </div>
