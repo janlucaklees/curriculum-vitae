@@ -15,4 +15,19 @@
 
 		background-color: #fffffb;
 	}
+
+	@page {
+		margin: 0;
+		padding: 0;
+		size: A4;
+	}
+
+	@media print {
+		main {
+			width: 100vw;
+			height: 100vh;
+
+			margin: 0 !important;
+		}
+	}
 </style>
