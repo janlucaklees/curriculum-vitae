@@ -1,16 +1,23 @@
 <script>
 	import {
+		BulbOutline,
+		ConstructOutline,
 		GitPullRequestOutline,
+		HammerOutline,
 		LocationOutline,
 		LogoGithub,
 		MailOutline,
 		MedalOutline,
+		ServerOutline,
+		TerminalOutline,
 		TrophyOutline
 	} from 'svelte-ionicons';
 	import Card from '../components/card.svelte';
 	import Section from '../components/section.svelte';
-	import Experience from '../components/experience.svelte';
+	import Position from '../components/position.svelte';
+	import Company from '../components/company.svelte';
 	import Rating from '../components/rating.svelte';
+	import Education from '../components/education.svelte';
 </script>
 
 <div class="pt-8 pr-6 pl-6 border-r-8 border-transparent">
@@ -24,7 +31,7 @@
 		</ul>
 	</header>
 
-	<Section title="Summary">
+	<Section title="About Me">
 		<p>
 			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
 			invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
@@ -34,95 +41,233 @@
 	</Section>
 
 	<Section title="Experience">
-		<Experience
-			jobTitle="Frontend Developer / Product Owner"
-			location="Remote"
-			duration="01/2020 - Present"
+		<Company
 			companyName="LEANATIC GmbH & Co. KG"
+			location="Remote"
+			start="01/2020"
+			end="05/2024"
 		>
-			<ul class="pl-4 list-disc">
-				<li class="mb-1">
-					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-					invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-				</li>
-				<li class="mb-1">
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-					commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-					dolore eu fugiat nulla pariatur.
-				</li>
-				<li class="mb-1">
-					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-					anim id est laborum.
-				</li>
-				<li class="">
-					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-					invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-				</li>
-			</ul>
-		</Experience>
-		<Experience
-			jobTitle="Technical Marketing Engineer"
+			<Position
+				jobTitle="Product Owner"
+				start="08/2023"
+			>
+				<ul class="pl-6 list-disc">
+					<li class="mb-1">
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+						invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+					</li>
+					<li class="mb-1">
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+						dolore eu fugiat nulla pariatur.
+					</li>
+				</ul>
+			</Position>
+
+			<Position
+				jobTitle="Project Manager"
+				start="09/2022"
+			>
+				<ul class="pl-6 list-disc">
+					<li class="mb-1">
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+						invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+					</li>
+					<li class="mb-1">
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+						dolore eu fugiat nulla pariatur.
+					</li>
+				</ul>
+			</Position>
+
+			<Position
+				jobTitle="Frontend Developer"
+				start="01/2020"
+			>
+				<ul class="pl-6 list-disc">
+					<li class="mb-1">
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+						invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+					</li>
+					<li class="mb-1">
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+						dolore eu fugiat nulla pariatur.
+					</li>
+				</ul>
+			</Position>
+		</Company>
+
+		<Company
+			companyName="FLOW4 UG (haftungsbeschränkt) & Co. KG"
 			location="Hamburg, Germany"
-			duration="04/2017 - 06/2018"
-			companyName="Dynport GmbH"
+			start="09/2019"
+			end="11/2019"
 		>
-			<ul class="pl-4 list-disc">
-				<li class="mb-1">
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-					commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-					dolore eu fugiat nulla pariatur.
-				</li>
-				<li class="mb-1">
-					Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Sit amet
-					venenatis urna cursus eget. Viverra maecenas accumsan lacus vel facilisis volutpat est.
-				</li>
-				<li class="">
-					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-					invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-				</li>
-			</ul>
-		</Experience>
-		<Experience
-			jobTitle="WordPress Developer"
+			<Position
+				jobTitle="Web-Developer"
+				start="09/2019"
+			>
+				<ul class="pl-6 list-disc">
+					<li class="mb-1">
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+						dolore eu fugiat nulla pariatur.
+					</li>
+					<li class="">
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+						invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+					</li>
+				</ul>
+			</Position>
+		</Company>
+
+		<Company
+			companyName="Phrase (Dynport GmbH)"
 			location="Hamburg, Germany"
-			duration="08/2013 - 12/2019"
-			companyName="Self Employed"
+			start="04/2017"
+			end="07/2018"
 		>
-			<ul class="pl-4 list-disc">
-				<li class="">
-					Et malesuada fames ac turpis egestas integer. Ipsum nunc aliquet bibendum enim facilisis
-					gravida. Enim ut sem viverra aliquet eget sit. Vitae elementum curabitur vitae nunc sed
-					velit dignissim sodales ut. Et netus et malesuada fames ac turpis egestas. A cras semper
-					auctor neque vitae tempus quam pellentesque nec.
-				</li>
-			</ul>
-		</Experience>
+			<Position
+				jobTitle="Technical Marketing Engineer"
+				start="02/2018"
+			>
+				<ul class="pl-6 list-disc">
+					<li class="mb-1">
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+						dolore eu fugiat nulla pariatur.
+					</li>
+					<li class="mb-1">
+						Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Sit amet
+						venenatis urna cursus eget. Viverra maecenas accumsan lacus vel facilisis volutpat est.
+					</li>
+				</ul>
+			</Position>
+
+			<Position
+				jobTitle="Customer Success Manager"
+				start="04/2017"
+			>
+				<ul class="pl-6 list-disc">
+					<li class="mb-1">
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+						dolore eu fugiat nulla pariatur.
+					</li>
+					<li class="mb-1">
+						Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Sit amet
+						venenatis urna cursus eget. Viverra maecenas accumsan lacus vel facilisis volutpat est.
+					</li>
+				</ul>
+			</Position>
+		</Company>
+
+		<Company
+			companyName="Interface One GmbH"
+			location="Hamburg, Germany"
+			start="08/2016"
+			end="03/2017"
+		>
+			<Position
+				jobTitle="Fullstack Developer"
+				start="08/2016"
+			>
+				<ul class="pl-6 list-disc">
+					<li class="">
+						Et malesuada fames ac turpis egestas integer. Ipsum nunc aliquet bibendum enim facilisis
+						gravida. Enim ut sem viverra aliquet eget sit. Vitae elementum curabitur vitae nunc sed
+						velit dignissim sodales ut.
+					</li>
+				</ul>
+			</Position>
+		</Company>
+
+		<Company
+			companyName="Universität Hamburg"
+			location="Hamburg, Germany"
+			start="10/2015"
+			end="03/2017"
+		>
+			<Position
+				jobTitle="Studentische Hilfskraft"
+				start="10/2015"
+			>
+				<ul class="pl-6 list-disc">
+					<li class="">
+						Et malesuada fames ac turpis egestas integer. Ipsum nunc aliquet bibendum enim facilisis
+						gravida. Enim ut sem viverra aliquet eget sit. Vitae elementum curabitur vitae nunc sed
+						velit dignissim sodales ut.
+					</li>
+				</ul>
+			</Position>
+		</Company>
+
+		<Company
+			companyName="Self-Employed"
+			location="Hamburg, Germany"
+			start="08/2023"
+			end="03/2017"
+		>
+			<Position
+				jobTitle="WordPress Developer"
+				start="08/2013"
+			>
+				<ul class="pl-6 list-disc">
+					<li class="">
+						Et malesuada fames ac turpis egestas integer. Ipsum nunc aliquet bibendum enim facilisis
+						gravida. Enim ut sem viverra aliquet eget sit. Vitae elementum curabitur vitae nunc sed
+						velit dignissim sodales ut. Et netus et malesuada fames ac turpis egestas. A cras semper
+						auctor neque vitae tempus quam pellentesque nec.
+					</li>
+				</ul>
+			</Position>
+		</Company>
 	</Section>
-	<!-- 
+
 	<Section title="Skills">
 		<ul>
-			<li>HTML</li>
-			<li>CSS / SCSS</li>
+			<li>
+				<Rating
+					label="HTML5"
+					rating="5"
+				/>
+			</li>
+			<li>
+				<Rating
+					label="CSS / SCSS"
+					rating="5"
+				/>
+			</li>
+			<li>
+				<Rating
+					label="JavaScript / TypeScript"
+					rating="5"
+				/>
+			</li>
 			<li>JavaScript</li>
 			<li>TypeScript</li>
 			<li>PHP</li>
+			<li>Accessability</li>
+			<li>Localization and Internationalization</li>
 		</ul>
 		<ul>
 			<li>Docker</li>
 			<li>Vue</li>
 			<li>React</li>
 		</ul>
-	</Section> -->
+	</Section>
 
 	<Section title="Education">
-		<Experience
-			jobTitle="Theoretical Computer Science"
+		<Education
+			jobTitle="B. sc. in Theoretical Computer Science"
 			location="Hamburg, Germany"
 			duration="10/2014 - 01/2018"
 			companyName="University of Hamburg"
 		>
 			<p class="text-sm">81 credit points with 1.8 average; Japanese studies as minor subject.</p>
-		</Experience>
+		</Education>
 	</Section>
 </div>
 
@@ -134,19 +279,31 @@
 	/>
 
 	<Section title="Achievements">
-		<Card title="Ullamcorper Morbi Tincidunt" icon={GitPullRequestOutline}>
+		<Card
+			title="Ullamcorper Morbi Tincidunt"
+			icon={GitPullRequestOutline}
+		>
 			A iaculis at erat pellentesque adipiscing commodo. Nisi scelerisque eu ultrices vitae. Ac
 			tincidunt vitae semper quis lectus nulla at volutpat.
 		</Card>
-		<Card title="Amet Mattis Vulputate" icon={MedalOutline}>
+		<Card
+			title="Amet Mattis Vulputate"
+			icon={MedalOutline}
+		>
 			At varius vel pharetra vel turpis nunc eget. Ipsum dolor sit amet consectetur. Blandit libero
 			volutpat sed cras ornare arcu dui.
 		</Card>
-		<Card title="Diam Sollicitudin" icon={TrophyOutline}>
+		<Card
+			title="Diam Sollicitudin"
+			icon={TrophyOutline}
+		>
 			Ultricies mi eget mauris pharetra et ultrices neque. Fusce ut placerat orci nulla pellentesque
 			dignissim enim.
 		</Card>
-		<Card title="Etiam Tempor Orci" icon={TrophyOutline}>
+		<Card
+			title="Etiam Tempor Orci"
+			icon={BulbOutline}
+		>
 			Pharetra et ultrices neque ornare aenean. Morbi tempus iaculis urna id volutpat. Molestie a
 			iaculis at erat pellentesque adipiscing commodo elit. Justo donec enim diam vulputate ut.
 		</Card>
@@ -167,20 +324,48 @@
 		</ul> -->
 	</Section>
 
-	<!-- <Section title="Passions"></Section> -->
+	<Section title="Passions">
+		<Card
+			title="Etiam Tempor Orci"
+			icon={TerminalOutline}
+		>
+			Pharetra et ultrices neque ornare aenean. Morbi tempus iaculis urna id volutpat. Molestie a
+			iaculis at erat pellentesque adipiscing commodo elit.
+		</Card>
+		<Card
+			title="Etiam Tempor Orci"
+			icon={ConstructOutline}
+		>
+			Pharetra et ultrices neque ornare aenean. Morbi tempus iaculis urna id volutpat. Molestie a
+			iaculis at erat pellentesque adipiscing commodo elit.
+		</Card>
+	</Section>
+
 	<Section title="Languages">
 		<ul class="grid grid-cols-2 gap-x-4 grid-">
 			<li>
-				<Rating label="German" rating="5" />
+				<Rating
+					label="German"
+					rating="5"
+				/>
 			</li>
 			<li>
-				<Rating label="Japanese" rating="3.5" />
+				<Rating
+					label="Japanese"
+					rating="3.5"
+				/>
 			</li>
 			<li>
-				<Rating label="English" rating="4.5" />
+				<Rating
+					label="English"
+					rating="4.5"
+				/>
 			</li>
 			<li>
-				<Rating label="Spanish" rating="1.5" />
+				<Rating
+					label="Spanish"
+					rating="1.5"
+				/>
 			</li>
 		</ul>
 	</Section>
