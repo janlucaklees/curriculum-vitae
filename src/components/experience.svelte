@@ -1,6 +1,7 @@
 <script>
 	import { add, differenceInCalendarMonths, format, compareDesc } from 'date-fns';
 
+	export let className = '';
 	export let companyName;
 	export let location;
 	export let end = Date.now();
@@ -44,7 +45,7 @@
 	}
 </script>
 
-<section class="mb-5">
+<section class="mb-5 {className}">
 	<header class="flex items-baseline">
 		<h3 class="text-lg text-subline">
 			{companyName}

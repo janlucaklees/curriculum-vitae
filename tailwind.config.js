@@ -31,6 +31,9 @@ export default {
 				// subline: '#E98B2A',
 				// aside: '#577C8A',
 				// border: '#3A3226'
+			},
+			screens: {
+				print: { raw: 'print' }
 			}
 		}
 	},

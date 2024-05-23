@@ -68,6 +68,7 @@
 		/>
 
 		<Experience
+			className="print:hidden"
 			companyName="FLOW4 UG"
 			location="Hamburg, Germany"
 			end="2019-11-01"
@@ -105,6 +106,7 @@
 		/>
 
 		<Experience
+			className="print:hidden"
 			companyName="Interface One GmbH"
 			location="Hamburg, Germany"
 			end="2017-03-01"
@@ -120,6 +122,7 @@
 		/>
 
 		<Experience
+			className="print:hidden"
 			companyName="Universität Hamburg"
 			location="Hamburg, Germany"
 			end="2017-03-01"
