@@ -1,11 +1,11 @@
 <script>
 	export let tags;
 
-	export let sortSeed = 1;
-	export let sizeMin = 0.25;
-	export let sizeMax = 2;
-	export let positionSeed = 779;
-	export let positionSpread = 1.25;
+	export let sortSeed = 4;
+	export let sizeMin = 0.5;
+	export let sizeMax = 1;
+	export let positionSeed = 15;
+	export let positionSpread = 1.2;
 
 	const shuffledTags = deterministicShuffle(tags);
 
