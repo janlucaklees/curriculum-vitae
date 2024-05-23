@@ -294,7 +294,7 @@
 
 				// Skills
 				{
-					label: 'Localization',
+					label: 'l10n',
 					rating: 1.5
 				},
 				{
@@ -302,7 +302,7 @@
 					rating: 1.5
 				},
 				{
-					label: 'Internationalization',
+					label: 'i18n',
 					rating: 1.5
 				},
 				{
