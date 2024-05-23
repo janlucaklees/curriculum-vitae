@@ -13,7 +13,6 @@
 	import Card from '../components/card.svelte';
 	import Section from '../components/section.svelte';
 	import Rating from '../components/rating.svelte';
-	import Education from '../components/education.svelte';
 	import Experience from '../components/experience.svelte';
 </script>
 
@@ -186,16 +185,20 @@
 	</Section>
 
 	<Section title="Education">
-		<Education
-			jobTitle="B. sc. in Theoretical Computer Science"
-			location="Hamburg, Germany"
-			duration="10/2014 - 01/2018"
+		<Experience
 			companyName="University of Hamburg"
-		>
-			<p class="text-sm">
-				81 credit points with an 1.8 average; Japanese studies as minor subject.
-			</p>
-		</Education>
+			location="Hamburg, Germany"
+			employmentType="Freelance"
+			end="2018-01-01"
+			positions={[
+				{
+					start: '2014-10-01',
+					jobTitle: 'B. sc. in Theoretical Computer Science',
+					employmentType: 'Student',
+					description: '81 credit points with an 1.8 average; Japanese studies as minor subject.'
+				}
+			]}
+		/>
 	</Section>
 </div>
 
