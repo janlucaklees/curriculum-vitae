@@ -3,7 +3,7 @@
 </script>
 
 <div class="app">
-	<main class="flex flex-row-reverse justify-end mx-auto mt-8 mb-8">
+	<main class="flex flex-row-reverse justify-end items-stretch mx-auto mt-8 mb-8">
 		<slot />
 	</main>
 </div>
@@ -11,9 +11,12 @@
 <style lang="postcss">
 	main {
 		width: 210mm;
-		height: 297mm;
+		min-height: 297mm;
 
 		background-color: #fffffb;
+		box-shadow:
+			rgba(0, 0, 0, 0.25) 0px 14px 28px,
+			rgba(0, 0, 0, 0.22) 0px 10px 10px;
 	}
 
 	@page {
@@ -28,6 +31,8 @@
 			height: 100vh;
 
 			margin: 0 !important;
+
+			box-shadow: none !important;
 		}
 	}
 </style>

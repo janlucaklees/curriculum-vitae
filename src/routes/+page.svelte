@@ -17,7 +17,7 @@
 	<header class="mb-8">
 		<h1 class="mb-2 text-5xl font-bold">Jan-Luca Klees</h1>
 		<p class="mb-1 text-2xl text-subline">Senior Frontend Developer | Something | Something Else</p>
-		<ul class="flex gap-2 list-none">
+		<ul class="flex gap-3 list-none">
 			<li class="flex gap-1 items-center"><MailOutline size="11" />email@janlucaklees.de</li>
 			<li class="flex gap-1 items-center"><LogoGithub size="11" />github.com</li>
 			<li class="flex gap-1 items-center"><LocationOutline size="11" />Detmold, Germany</li>
@@ -126,7 +126,7 @@
 	</Section>
 </div>
 
-<div class="pt-8 pr-6 pl-6 w-1/3 h-full border-l-8 shrink-0 bg-aside border-border">
+<div class="pt-8 pr-6 pl-6 w-1/3 border-l-8 shrink-0 bg-aside border-border">
 	<img
 		src="portrait.png"
 		alt=""
