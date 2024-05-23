@@ -13,6 +13,7 @@
 	import Card from '../components/card.svelte';
 	import Section from '../components/section.svelte';
 	import Rating from '../components/rating.svelte';
+	import Skills from '../components/skills.svelte';
 	import Experience from '../components/experience.svelte';
 </script>
 
@@ -155,36 +156,161 @@
 	</Section>
 
 	<Section title="Skills">
-		<ul>
-			<li>
-				<Rating
-					label="HTML5"
-					rating="5"
-				/>
-			</li>
-			<li>
-				<Rating
-					label="CSS / SCSS"
-					rating="5"
-				/>
-			</li>
-			<li>
-				<Rating
-					label="JavaScript / TypeScript"
-					rating="5"
-				/>
-			</li>
-			<li>JavaScript</li>
-			<li>TypeScript</li>
-			<li>PHP</li>
-			<li>Accessability</li>
-			<li>Localization and Internationalization</li>
-		</ul>
-		<ul>
-			<li>Docker</li>
-			<li>Vue</li>
-			<li>React</li>
-		</ul>
+		<Skills
+			tags={[
+				// Languages
+				{
+					label: 'HTML5',
+					rating: 6
+				},
+				{
+					label: 'CSS',
+					rating: 5
+				},
+				{
+					label: 'SCSS',
+					rating: 7
+				},
+				{
+					label: 'JavaScript',
+					rating: 7
+				},
+				{
+					label: 'TypeScript',
+					rating: 3
+				},
+				{
+					label: 'PHP',
+					rating: 3
+				},
+				{
+					label: 'Python',
+					rating: 2
+				},
+				{
+					label: 'Julia',
+					rating: 1
+				},
+				{
+					label: 'Mojo',
+					rating: 0.5
+				},
+				{
+					label: 'Java',
+					rating: 1.5
+				},
+				{
+					label: 'Prolog',
+					rating: 1
+				},
+				{
+					label: 'Scheme',
+					rating: 1
+				},
+				{
+					label: 'Bash',
+					rating: 2
+				},
+				{
+					label: 'Wasm',
+					rating: 1.5
+				},
+				{
+					label: 'C++',
+					rating: 0.5
+				},
+				{
+					label: 'Rust',
+					rating: 0.5
+				},
+
+				// Tools
+				{
+					label: 'Docker',
+					rating: 4.5
+				},
+				{
+					label: 'Git',
+					rating: 4.5
+				},
+				{
+					label: 'GitLab CI',
+					rating: 3.5
+				},
+				{
+					label: 'GitHub Actions',
+					rating: 3.5
+				},
+				{
+					label: 'Vim',
+					rating: 2
+				},
+
+				// Libraries
+				{
+					label: 'GSAP',
+					rating: 2.5
+				},
+
+				// Frameworks
+				{
+					label: 'Vue',
+					rating: 3.5
+				},
+				{
+					label: 'React',
+					rating: 3
+				},
+				{
+					label: 'Svelte',
+					rating: 1
+				},
+				{
+					label: 'WordPress',
+					rating: 3
+				},
+				{
+					label: 'Pimcore',
+					rating: 3.5
+				},
+				{
+					label: 'Bun',
+					rating: 2
+				},
+
+				// Operating Systems
+				{
+					label: 'Windows',
+					rating: 4
+				},
+				{
+					label: 'Linux',
+					rating: 5
+				},
+				{
+					label: 'MacOS',
+					rating: 3
+				},
+
+				// Skills
+				{
+					label: 'Localization',
+					rating: 1.5
+				},
+				{
+					label: 'Accessability',
+					rating: 1.5
+				},
+				{
+					label: 'Internationalization',
+					rating: 1.5
+				},
+				{
+					label: 'Origami',
+					rating: 1
+				}
+			]}
+		/>
 	</Section>
 
 	<Section title="Education">
