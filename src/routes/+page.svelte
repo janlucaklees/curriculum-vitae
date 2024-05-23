@@ -3,27 +3,26 @@
 		BulbOutline,
 		ConstructOutline,
 		GitPullRequestOutline,
-		HammerOutline,
 		LocationOutline,
 		LogoGithub,
 		MailOutline,
 		MedalOutline,
-		ServerOutline,
 		TerminalOutline,
 		TrophyOutline
 	} from 'svelte-ionicons';
 	import Card from '../components/card.svelte';
 	import Section from '../components/section.svelte';
-	import Position from '../components/position.svelte';
-	import Company from '../components/company.svelte';
 	import Rating from '../components/rating.svelte';
 	import Education from '../components/education.svelte';
+	import Experience from '../components/experience.svelte';
 </script>
 
 <div class="pt-8 pr-6 pl-6 border-r-8 border-transparent">
 	<header class="mb-8">
 		<h1 class="mb-2 text-5xl font-bold">Jan-Luca Klees</h1>
-		<p class="mb-1 text-2xl text-subline">Senior Frontend Developer | Something | Something Else</p>
+		<p class="mb-1 text-2xl text-subline">
+			Senior Frontend Developer | DevOps Enthusiast | Something Else
+		</p>
 		<ul class="flex gap-3 list-none">
 			<li class="flex gap-1 items-center"><MailOutline size="11" />email@janlucaklees.de</li>
 			<li class="flex gap-1 items-center"><LogoGithub size="11" />github.com</li>
@@ -41,189 +40,116 @@
 	</Section>
 
 	<Section title="Experience">
-		<Company
+		<Experience
 			companyName="LEANATIC GmbH & Co. KG"
 			location="Remote"
-			start="01/2020"
-			end="05/2024"
-		>
-			<Position
-				jobTitle="Product Owner"
-				start="08/2023"
-			>
-				<ul class="pl-6 list-disc">
-					<li class="mb-1">
-						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-						invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-					</li>
-					<li class="mb-1">
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-						dolore eu fugiat nulla pariatur.
-					</li>
-				</ul>
-			</Position>
+			positions={[
+				{
+					start: '2020-01-01',
+					jobTitle: 'Frontend Developer',
+					employmentType: 'Full-time',
+					description:
+						'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+				},
+				{
+					start: '2023-08-01',
+					jobTitle: 'Product Owner',
+					employmentType: 'Full-time',
+					description:
+						'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+				},
+				{
+					start: '2022-09-01',
+					jobTitle: 'Project Manager',
+					employmentType: 'Full-time',
+					description:
+						'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+				}
+			]}
+		/>
 
-			<Position
-				jobTitle="Project Manager"
-				start="09/2022"
-			>
-				<ul class="pl-6 list-disc">
-					<li class="mb-1">
-						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-						invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-					</li>
-					<li class="mb-1">
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-						dolore eu fugiat nulla pariatur.
-					</li>
-				</ul>
-			</Position>
-
-			<Position
-				jobTitle="Frontend Developer"
-				start="01/2020"
-			>
-				<ul class="pl-6 list-disc">
-					<li class="mb-1">
-						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-						invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-					</li>
-					<li class="mb-1">
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-						dolore eu fugiat nulla pariatur.
-					</li>
-				</ul>
-			</Position>
-		</Company>
-
-		<Company
-			companyName="FLOW4 UG (haftungsbeschränkt) & Co. KG"
+		<Experience
+			companyName="FLOW4 UG"
 			location="Hamburg, Germany"
-			start="09/2019"
-			end="11/2019"
-		>
-			<Position
-				jobTitle="Web-Developer"
-				start="09/2019"
-			>
-				<ul class="pl-6 list-disc">
-					<li class="mb-1">
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-						dolore eu fugiat nulla pariatur.
-					</li>
-					<li class="">
-						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-						invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-					</li>
-				</ul>
-			</Position>
-		</Company>
+			end="2019-11-01"
+			positions={[
+				{
+					start: '2019-09-01',
+					jobTitle: 'Web-Developer',
+					employmentType: 'Part-time',
+					description:
+						'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+				}
+			]}
+		/>
 
-		<Company
-			companyName="Phrase (Dynport GmbH)"
+		<Experience
+			companyName="Phrase a.s."
 			location="Hamburg, Germany"
-			start="04/2017"
-			end="07/2018"
-		>
-			<Position
-				jobTitle="Technical Marketing Engineer"
-				start="02/2018"
-			>
-				<ul class="pl-6 list-disc">
-					<li class="mb-1">
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-						dolore eu fugiat nulla pariatur.
-					</li>
-					<li class="mb-1">
-						Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Sit amet
-						venenatis urna cursus eget. Viverra maecenas accumsan lacus vel facilisis volutpat est.
-					</li>
-				</ul>
-			</Position>
+			end="2018-07-01"
+			positions={[
+				{
+					start: '2018-02-01',
+					jobTitle: 'Technical Marketing Engineer',
+					employmentType: 'Full-time',
+					description:
+						'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+				},
+				{
+					start: '2017-04-01',
+					jobTitle: 'Customer Success Manager',
+					employmentType: 'Work Student',
+					description:
+						'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+				}
+			]}
+		/>
 
-			<Position
-				jobTitle="Customer Success Manager"
-				start="04/2017"
-			>
-				<ul class="pl-6 list-disc">
-					<li class="mb-1">
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-						dolore eu fugiat nulla pariatur.
-					</li>
-					<li class="mb-1">
-						Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Sit amet
-						venenatis urna cursus eget. Viverra maecenas accumsan lacus vel facilisis volutpat est.
-					</li>
-				</ul>
-			</Position>
-		</Company>
-
-		<Company
+		<Experience
 			companyName="Interface One GmbH"
 			location="Hamburg, Germany"
-			start="08/2016"
-			end="03/2017"
-		>
-			<Position
-				jobTitle="Fullstack Developer"
-				start="08/2016"
-			>
-				<ul class="pl-6 list-disc">
-					<li class="">
-						Et malesuada fames ac turpis egestas integer. Ipsum nunc aliquet bibendum enim facilisis
-						gravida. Enim ut sem viverra aliquet eget sit. Vitae elementum curabitur vitae nunc sed
-						velit dignissim sodales ut.
-					</li>
-				</ul>
-			</Position>
-		</Company>
+			end="2017-03-01"
+			positions={[
+				{
+					start: '2016-08-01',
+					jobTitle: 'Fullstack Developer',
+					employmentType: 'Work Student',
+					description:
+						'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+				}
+			]}
+		/>
 
-		<Company
+		<Experience
 			companyName="Universität Hamburg"
 			location="Hamburg, Germany"
-			start="10/2015"
-			end="03/2017"
-		>
-			<Position
-				jobTitle="Studentische Hilfskraft"
-				start="10/2015"
-			>
-				<ul class="pl-6 list-disc">
-					<li class="">
-						Et malesuada fames ac turpis egestas integer. Ipsum nunc aliquet bibendum enim facilisis
-						gravida. Enim ut sem viverra aliquet eget sit. Vitae elementum curabitur vitae nunc sed
-						velit dignissim sodales ut.
-					</li>
-				</ul>
-			</Position>
-		</Company>
+			end="2017-03-01"
+			positions={[
+				{
+					start: '2015-10-01',
+					jobTitle: 'Student Assistant',
+					employmentType: 'Work Student',
+					description:
+						'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+				}
+			]}
+		/>
 
-		<Company
-			companyName="Self-Employed"
+		<Experience
+			companyName="Freelance"
 			location="Hamburg, Germany"
-			start="08/2023"
-			end="03/2017"
-		>
-			<Position
-				jobTitle="WordPress Developer"
-				start="08/2013"
-			>
-				<ul class="pl-6 list-disc">
-					<li class="">
-						Et malesuada fames ac turpis egestas integer. Ipsum nunc aliquet bibendum enim facilisis
-						gravida. Enim ut sem viverra aliquet eget sit. Vitae elementum curabitur vitae nunc sed
-						velit dignissim sodales ut. Et netus et malesuada fames ac turpis egestas. A cras semper
-						auctor neque vitae tempus quam pellentesque nec.
-					</li>
-				</ul>
-			</Position>
-		</Company>
+			employmentType="Freelance"
+			end="2017-03-01"
+			positions={[
+				{
+					start: '2013-08-01',
+					jobTitle: 'WordPress Freelancer',
+					employmentType: 'Self-Employed',
+					description:
+						'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+				}
+			]}
+		/>
 	</Section>
 
 	<Section title="Skills">
@@ -266,7 +192,9 @@
 			duration="10/2014 - 01/2018"
 			companyName="University of Hamburg"
 		>
-			<p class="text-sm">81 credit points with 1.8 average; Japanese studies as minor subject.</p>
+			<p class="text-sm">
+				81 credit points with an 1.8 average; Japanese studies as minor subject.
+			</p>
 		</Education>
 	</Section>
 </div>
