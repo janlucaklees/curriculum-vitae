@@ -4,7 +4,7 @@
 	export let sortSeed = 4;
 	export let sizeMin = 0.5;
 	export let sizeMax = 1;
-	export let positionSeed = 15;
+	export let positionSeed = 1338;
 	export let positionSpread = 1.2;
 
 	const shuffledTags = deterministicShuffle(tags);
@@ -29,7 +29,7 @@
 	}
 </script>
 
-<div class="flex flex-wrap gap-x-2 justify-between items-center leading-none">
+<div class="flex flex-wrap gap-x-2 justify-between items-center mt-4 mb-5 leading-none">
 	{#each shuffledTags as tag}
 		<div
 			class="relative"
