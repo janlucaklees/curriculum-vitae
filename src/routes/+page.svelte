@@ -75,12 +75,6 @@
 			<Experience {...item} />
 		{/each}
 	</Section>
-	<!-- 
-	{#if content.skills}
-		<Section title={content.skills.title}>
-			<Skills tags={content.skills.items} />
-		</Section>
-	{/if} -->
 
 	<Section title={content.education.title}>
 		{#each content.education.items as item}
