@@ -34,6 +34,10 @@ export default {
 			},
 			screens: {
 				print: { raw: 'print' }
+			},
+
+			fontWeight: {
+				medium: '450'
 			}
 		}
 	},
