@@ -1,13 +1,13 @@
 person:
   title: About Me
   name: Jan-Luca Klees
-  description: Senior Frontend Developer
+  description: Senior Frontend Developer | DevOps Enthusiast
   address:
     line1: Hans-Hinrichs-Str. 2
     line2: 32756 Detmold, Germany
   phone:
     href: tel:+4917648681314
-    label: 0176 4868 1314
+    label: +49 176 4868 1314
   email:
     href: mailto:email@janlucaklees.de
     label: email@janlucaklees.de
@@ -21,8 +21,34 @@ person:
   summary: >
     As a dynamic and versatile professional with a wealth of experience in front-end development,
     DevOps and product ownership, I thrive on transforming complex problems into elegant solutions.
-    I am committed to continuous learning and adaptation, always seeking new challenges and
+    <br> I am committed to continuous learning and adaptation, always seeking new challenges and
     opportunities to grow.
+
+# I thrive on continuous learning and tackling new challenges. Skilled in simplifying complex
+# concepts and known for proactive problem-solving, I seek environments that value personal growth
+# and innovation. So far I have been a detail oriented Frontend Developer. accumulating extensive
+# experience and outgrew that job description. My next gig needs to be something else.
+
+# As a dynamic and versatile professional with a wealth of experience in front-end development,
+# project management, customer success, and entrepreneurship, I thrive on transforming complex
+# problems into elegant solutions. My journey began with a keen interest in software development,
+# quickly expanding into diverse roles where I honed my skills in responsive design, user-friendly
+# interfaces, and innovative technical solutions.
+
+# I am passionate about leveraging modern technologies to create high-impact, intuitive
+# applications. My tenure as a Product Owner and Front-End Developer has equipped me with a deep
+# understanding of both the technical and customer-facing aspects of software development. Whether
+# it’s developing pixel-perfect WordPress sites or streamlining scientific simulations with
+# Docker-based systems, my focus remains on delivering excellence and fostering collaboration.
+
+# A natural problem-solver, I excel at breaking down intricate concepts into digestible insights,
+# making me an effective communicator and mentor. My entrepreneurial spirit led me to co-found
+# KAIZN, where I continue to drive our mission to revolutionize science and medicine through
+# open-source software.
+
+# I am committed to continuous learning and adaptation, always seeking new challenges and
+# opportunities to grow. My diverse background, combined with a proven track record of success,
+# makes me a valuable asset to any team looking to innovate and excel.
 
 footer: See my full cv at <a href="https:/cv.janlucaklees.de">cv.janlucaklees.de</a>.
 
@@ -36,10 +62,12 @@ experiences:
           start: 2023-03-31
           employmentType: ad-hoc
           description: >
-            On the mission to streamline science through intuitive and user-friendly open-source
-            software, our goal is to make science accessible to everyone and enhance the development
-            of new and better medications with our iterative research system.
+            Streamlining science through intuitive and user-friendly open-source software, we want
+            to ease the development of new and better medications and make science accessible to
+            everyone.
           successStories:
+            # - Simplified code-sharing for researchers by building a Docker-based microservice system
+            #   for scientific simulations.
             - Implemented a plugin system from the ground up to power our simulation software.
 
     - companyName: LEANATIC GmbH
@@ -56,21 +84,58 @@ experiences:
           successStories:
             - By presenting finished solutions to customers, I significantly reduced
               dissatisfaction, questions, and post-completion adaptations.
+        # - start: 2022-09-01
+        #   jobTitle: Project Manager
+        #   employmentType: Full-time
+        #   description: >
+        #     I gathered customer requirements and translated them into actionable tasks in Jira. I
+        #     collaborated with developers to create project timelines, maintained a comprehensive
+        #     overview of ongoing and upcoming projects, and communicated schedules with customers. I
+        #     was responsible for quality assessment, ensuring customer needs were met and preventing
+        #     regressions.
+        #   successStories:
+        #     - Advocated for strict adherence to deadlines to maintain profitability under a
+        #       fixed-price policy. This approach ensured projects were completed on time, preventing
+        #       financial losses and allowing for timely commencement of new projects. Additionally,
+        #       this strategy led to better management of customer expectations by pushing new
+        #       requests into separate contracts.
+        #     - Developed a clear and unified issue-workflow applied across all projects. This
+        #       provided full visibility into the status of issues throughout their lifecycle,
+        #       eliminating confusion about deployment status.
         - start: 2020-01-01
           jobTitle: Frontend Developer
           employmentType: Full-time
           description: >
             Developed responsive and accessible web applications as part of a cross-functional,
             agile team. Worked closely with customers to identify and implement effective solutions.
-            Additionally, maintained existing projects, created new features and content modules,
-            and relaunched entire websites.
           successStories:
-            - Implemented DevOps practices, eliminating the need for manual project setups and
-              established Continuous Delivery pipelines.
-            - Held regular, short developer meetings to enhance code quality and team awareness,
-              enabling the team to focus on improvement despite management constraints.
+            - Implemented DevOps practices, eliminating the need for manual project setups, which
+              significantly reduced onboarding time and improved developer efficiency.
+            - Established Continuous Delivery pipelines, standardizing the deployment process across
+              projects, enabling everyone to deploy without headaches.
+            - Held regular, short developer meetings to raise awareness for code quality and
+              exchange knowledge, enabling the team to focus on improvement.
+            # - Introduced a unified branching workflow that allowed for independent feature releases,
+            #   resolving merging issues and leading to faster shipping times.
             - Transitioned the team to trunk-based development, encouraging thoughtful commits and
               drastically reducing workflow overhead.
+
+    # - companyName: FLOW4 UG
+    #   location: Hamburg, Germany
+    #   end: 2019-11-01
+    #   positions:
+    #     - start: 2019-09-01
+    #       jobTitle: Web-Developer
+    #       employmentType: Part-time
+    #       description: >
+    #         Developed custom WordPress themes for highly interactive and visually engaging websites,
+    #         including web applications and marketing sites. Specialized in creating advanced
+    #         animations and dynamic user experiences using the GSAP animation library, making sites
+    #         both functional and captivating.
+    #       successStories:
+    #         - Developed a Docker-based development environment to automate and expedite project
+    #           setup. Although my tenure was short, this initiative demonstrated potential for
+    #           significant efficiency improvements in the development process.
 
     - companyName: Phrase a.s.
       location: Hamburg, Germany
@@ -84,23 +149,23 @@ experiences:
             implementing SEO best practices to enhance search engine visibility and ensuring the
             blog's technical performance was top-notch.
           successStories:
-            - Successfully increased the blog’s performance by 60% through technical optimizations
-              and achieved higher search engine rankings. This led to greater visibility and
-              significantly improved traffic, contributing to the blog’s popularity and success.
+            - Successfully reduced the blog’s load times by 65% through technical optimizations,
+              achieving higher search engine rankings. This greater visibility led to significantly
+              improved traffic, contributing to the blog’s popularity and success.
         - start: 2017-04-01
           jobTitle: Customer Success Manager
           employmentType: Work Student
           description: >
             Responsible for answering customer inquiries and supporting them with integrating the
-            product into their workflows. I maintained and upgraded the documentation, restructuring
-            it to better serve distinct user groups.
+            product into their workflows. I also maintained and upgraded the customer-facing
+            documentation, restructuring it to better serve the distinct user groups our product
+            had.
           successStories:
             - Identified three distinct user groups and restructured the documentation to be
               role-centric, enhancing usability and forming the foundation for the marketing team’s
               strategy.
-            - Established regular meetings for customer success employees to exchange knowledge,
-              resulting in improved response times and creation of saved answers that fed into the
-              documentation.
+            - Established regular meetings for customer success employees to exchange and collect
+              knowledge, resulting in more pre-written responses that improved response times.
             # - Improved the efficiency and effectiveness of customer support by developing
             #   comprehensive and accessible documentation, aiming to resolve inquiries through easily
             #   shareable links.
@@ -145,9 +210,9 @@ experiences:
           jobTitle: WordPress Freelancer
           employmentType: Self-Employed
           description: >
-            Created unique WordPress websites, translating intricate designs into responsive,
-            mobile-friendly versions to ensure seamless user experiences across all devices. Paid
-            special attention to structuring the admin panel for ease of use.
+            Created unique WordPress websites, making sure intricate designs were responsive,
+            mobile-friendly to ensure seamless user experiences across all devices. Paid special
+            attention to structuring the admin panel for ease of use.
           successStories:
             - Developed a custom RSVP application for a high-profile client, implementing an
               algorithm to generate typo-resistant sign-up codes.
@@ -166,7 +231,7 @@ achievements:
       description: >
         Revitalized a failing project that was half a year overdue. I took charge and restarted the
         process. By building weekly prototypes in close collaboration with the end-users, I
-        developed a simplified but effective solution. Within six months, we were live.
+        developed a simplified but effective solution. Within six months, <br> we were live.
     - title: Mentored Trainee to <br> Junior Developer
       icon: RocketOutline
       description: >
@@ -219,107 +284,103 @@ skills:
   items:
     # Languages
     - label: HTML5
-      rating: 6
+      proficiency: 3
     - label: Regex
-      rating: 4
+      proficiency: 2.5
     - label: Twig
-      rating: 3
+      proficiency: 2.5
     - label: CSS
-      rating: 5
+      proficiency: 2.5
     - label: SCSS
-      rating: 7
+      proficiency: 3
     - label: JavaScript
-      rating: 7
+      proficiency: 3
     - label: TypeScript
-      rating: 3
+      proficiency: 2
     - label: PHP
-      rating: 3
+      proficiency: 2
     - label: Python
-      rating: 2
+      proficiency: 1.5
     - label: Julia
-      rating: 1
-    - label: Mojo
-      rating: 0.5
+      proficiency: 1
     - label: Java
-      rating: 1.5
+      proficiency: 1
     - label: Prolog
-      rating: 1
+      proficiency: 2.5
     - label: Racket
-      rating: 1
+      proficiency: 2
     - label: Bash
-      rating: 2
+      proficiency: 2
     - label: Wasm
-      rating: 1.5
+      proficiency: 1
     - label: C++
-      rating: 0.5
+      proficiency: 1
     - label: Rust
-      rating: 0.5
+      proficiency: 1
 
     # Tools
     - label: Docker
-      rating: 4.5
+      proficiency: 3
+    - label: Docker-Compose
+      proficiency: 3
     - label: Git
-      rating: 4.5
+      proficiency: 3
     - label: GitLab CI
-      rating: 3.5
+      proficiency: 2
     - label: GitHub Actions
-      rating: 3.5
+      proficiency: 2
     - label: Vim
-      rating: 2
+      proficiency: 2
 
     # Libraries
     - label: GSAP
-      rating: 2.5
+      proficiency: 2
 
     # Frameworks
     - label: Vue
-      rating: 3.5
+      proficiency: 2.5
     - label: React
-      rating: 3
+      proficiency: 2
     - label: Svelte
-      rating: 1
+      proficiency: 1.5
     - label: WordPress
-      rating: 3
+      proficiency: 2.5
     - label: Pimcore
-      rating: 3.5
+      proficiency: 2
     - label: Bun
-      rating: 2
+      proficiency: 1.5
     - label: Symfony
-      rating: 2
-    - label: Pimcore
-      rating: 2
+      proficiency: 1.5
     - label: Bootstrap
-      rating: 5
+      proficiency: 3
     - label: Nuxt
-      rating: 3
+      proficiency: 2
     - label: Alpine.js
-      rating: 2
+      proficiency: 2
 
     # Operating Systems
     - label: Windows
-      rating: 4
+      proficiency: 2.5
     - label: Linux
-      rating: 5
+      proficiency: 3
     - label: MacOS
-      rating: 3
+      proficiency: 2
 
     # Skills
     - label: Microservices
-      rating: 3
+      proficiency: 1.5
     - label: l10n
-      rating: 1.5
+      proficiency: 2.5
     - label: Accessability
-      rating: 1.5
+      proficiency: 1.5
     - label: i18n
-      rating: 1.5
+      proficiency: 2
     - label: SEO
-      rating: 2
+      proficiency: 1
     - label: Web Performance
-      rating: 2
+      proficiency: 1.5
     - label: Origami
-      rating: 1
-    - label: PIM
-      rating: 3
+      proficiency: 2
 
 languages:
   title: Languages
@@ -329,6 +390,6 @@ languages:
     - label: Japanese
       rating: 3.5
     - label: English
-      rating: 4.5
+      rating: 4.75
     - label: Spanish
       rating: 1.5
