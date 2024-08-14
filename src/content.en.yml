@@ -62,9 +62,9 @@ experiences:
           start: 2023-03-31
           employmentType: ad-hoc
           description: >
-            On the mission to streamline science through intuitive and user-friendly open-source
-            software, our goal is to make science accessible to everyone and enhance the development
-            of new and better medications with our iterative research system.
+            Streamlining science through intuitive and user-friendly open-source software, we want
+            to ease the development of new and better medications and make science accessible to
+            everyone.
           successStories:
             - Simplified code-sharing for researchers by building a Docker-based microservice system
               for scientific simulations.
@@ -108,15 +108,13 @@ experiences:
           description: >
             Developed responsive and accessible web applications as part of a cross-functional,
             agile team. Worked closely with customers to identify and implement effective solutions.
-            Additionally, maintained existing projects, created new features and content modules,
-            and relaunched entire websites.
           successStories:
             - Implemented DevOps practices, eliminating the need for manual project setups, which
               significantly reduced onboarding time and improved developer efficiency.
             - Established Continuous Delivery pipelines, standardizing the deployment process across
               projects, enabling everyone to deploy without headaches.
-            - Held regular, short developer meetings to enhance code quality and team awareness,
-              enabling the team to focus on improvement.
+            - Held regular, short developer meetings to raise awareness for code quality and
+              exchange knowledge, enabling the team to focus on improvement.
             # - Introduced a unified branching workflow that allowed for independent feature releases,
             #   resolving merging issues and leading to faster shipping times.
             - Transitioned the team to trunk-based development, encouraging thoughtful commits and
@@ -151,23 +149,23 @@ experiences:
             implementing SEO best practices to enhance search engine visibility and ensuring the
             blog's technical performance was top-notch.
           successStories:
-            - Successfully increased the blog’s performance by 60% through technical optimizations
-              and achieved higher search engine rankings. This led to greater visibility and
-              significantly improved traffic, contributing to the blog’s popularity and success.
+            - Successfully reduced the blog’s load times by 65% through technical optimizations,
+              achieving higher search engine rankings. This greater visibility led to significantly
+              improved traffic, contributing to the blog’s popularity and success.
         - start: 2017-04-01
           jobTitle: Customer Success Manager
           employmentType: Work Student
           description: >
             Responsible for answering customer inquiries and supporting them with integrating the
-            product into their workflows. I maintained and upgraded the documentation, restructuring
-            it to better serve distinct user groups.
+            product into their workflows. I also maintained and upgraded the customer-facing
+            documentation, restructuring it to better serve the distinct user groups our product
+            had.
           successStories:
             - Identified three distinct user groups and restructured the documentation to be
               role-centric, enhancing usability and forming the foundation for the marketing team’s
               strategy.
-            - Established regular meetings for customer success employees to exchange knowledge,
-              resulting in improved response times and creation of saved answers that fed into the
-              documentation.
+            - Established regular meetings for customer success employees to exchange and collect
+              knowledge, resulting in more pre-written responses that improved response times.
             - Improved the efficiency and effectiveness of customer support by developing
               comprehensive and accessible documentation, aiming to resolve inquiries through easily
               shareable links.
