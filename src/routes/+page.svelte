@@ -156,9 +156,11 @@
 		</ul>
 	</Section>
 
-	<!-- <div class="mt-auto mb-8 text-sm text-center">
-		{@html content.footer}
-	</div> -->
+	{#if content.footer}
+		<div class="mt-auto mb-8 text-sm text-center">
+			{@html content.footer}
+		</div>
+	{/if}
 </div>
 
 <style>
