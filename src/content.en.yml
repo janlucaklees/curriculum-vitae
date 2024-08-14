@@ -7,7 +7,7 @@ person:
     line2: 32756 Detmold, Germany
   phone:
     href: tel:+4917648681314
-    label: 0176 4868 1314
+    label: +49 176 4868 1314
   email:
     href: mailto:email@janlucaklees.de
     label: email@janlucaklees.de
@@ -21,7 +21,7 @@ person:
   summary: >
     As a dynamic and versatile professional with a wealth of experience in front-end development,
     DevOps and product ownership, I thrive on transforming complex problems into elegant solutions.
-    I am committed to continuous learning and adaptation, always seeking new challenges and
+    <br> I am committed to continuous learning and adaptation, always seeking new challenges and
     opportunities to grow.
 
 # I thrive on continuous learning and tackling new challenges. Skilled in simplifying complex
@@ -116,7 +116,7 @@ experiences:
             - Established Continuous Delivery pipelines, standardizing the deployment process across
               projects, enabling everyone to deploy without headaches.
             - Held regular, short developer meetings to enhance code quality and team awareness,
-              enabling the team to focus on improvement despite management constraints.
+              enabling the team to focus on improvement.
             # - Introduced a unified branching workflow that allowed for independent feature releases,
             #   resolving merging issues and leading to faster shipping times.
             - Transitioned the team to trunk-based development, encouraging thoughtful commits and
@@ -212,9 +212,9 @@ experiences:
           jobTitle: WordPress Freelancer
           employmentType: Self-Employed
           description: >
-            Created unique WordPress websites, translating intricate designs into responsive,
-            mobile-friendly versions to ensure seamless user experiences across all devices. Paid
-            special attention to structuring the admin panel for ease of use.
+            Created unique WordPress websites, making sure intricate designs were responsive,
+            mobile-friendly to ensure seamless user experiences across all devices. Paid special
+            attention to structuring the admin panel for ease of use.
           successStories:
             - Developed a custom RSVP application for a high-profile client, implementing an
               algorithm to generate typo-resistant sign-up codes.
@@ -392,6 +392,6 @@ languages:
     - label: Japanese
       rating: 3.5
     - label: English
-      rating: 4.5
+      rating: 4.75
     - label: Spanish
       rating: 1.5

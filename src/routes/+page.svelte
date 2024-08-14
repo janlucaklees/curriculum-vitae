@@ -66,7 +66,7 @@
 
 	<Section title={content.person.title}>
 		<p class="font-light leading-tight whitespace-pre-line">
-			{content.person.summary}
+			{@html content.person.summary}
 		</p>
 	</Section>
 
