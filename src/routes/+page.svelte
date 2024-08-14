@@ -6,17 +6,17 @@
 		LogoLinkedin,
 		MailOutline
 	} from 'svelte-ionicons';
-
 	import * as Icons from 'svelte-ionicons';
-	import Section from '../components/section.svelte';
-	import Rating from '../components/rating.svelte';
-	import Skills from '../components/skills.svelte';
+
+	import CardCondensed from '../components/cardCondensed.svelte';
 	import Experience from '../components/experience.svelte';
+	import IconInfo from '../components/IconInfo.svelte';
+	import Section from '../components/section.svelte';
+	import SkillCloud from '../components/SkillCloud.svelte';
+	import Rating from '../components/rating.svelte';
 
 	// import content from '../content.print.en.yml';
 	import content from '../content.en.yml';
-	import IconInfo from '../components/IconInfo.svelte';
-	import CardCondensed from '../components/cardCondensed.svelte';
 </script>
 
 <div class="pt-6 pr-4 pl-4 border-r-8 border-transparent">
@@ -136,9 +136,12 @@
 
 	{#if content.skills}
 		<Section title={content.skills.title}>
-			<Skills
-				tags={content.skills.items}
-				positionSeed={4}
+			<SkillCloud
+				skills={content.skills.items}
+				maxProficiency={3}
+				positionSeed={0}
+				positionSpread={0}
+				sortSeed={0}
 			/>
 		</Section>
 	{/if}

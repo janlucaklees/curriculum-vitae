@@ -286,107 +286,103 @@ skills:
   items:
     # Languages
     - label: HTML5
-      rating: 6
+      proficiency: 3
     - label: Regex
-      rating: 4
+      proficiency: 2.5
     - label: Twig
-      rating: 3
+      proficiency: 2.5
     - label: CSS
-      rating: 5
+      proficiency: 2.5
     - label: SCSS
-      rating: 7
+      proficiency: 3
     - label: JavaScript
-      rating: 7
+      proficiency: 3
     - label: TypeScript
-      rating: 3
+      proficiency: 2
     - label: PHP
-      rating: 3
+      proficiency: 2
     - label: Python
-      rating: 2
+      proficiency: 1.5
     - label: Julia
-      rating: 1
-    - label: Mojo
-      rating: 0.5
+      proficiency: 1
     - label: Java
-      rating: 1.5
+      proficiency: 1
     - label: Prolog
-      rating: 1
+      proficiency: 2.5
     - label: Racket
-      rating: 1
+      proficiency: 2
     - label: Bash
-      rating: 2
+      proficiency: 2
     - label: Wasm
-      rating: 1.5
+      proficiency: 1
     - label: C++
-      rating: 0.5
+      proficiency: 1
     - label: Rust
-      rating: 0.5
+      proficiency: 1
 
     # Tools
     - label: Docker
-      rating: 4.5
+      proficiency: 3
+    - label: Docker-Compose
+      proficiency: 3
     - label: Git
-      rating: 4.5
+      proficiency: 3
     - label: GitLab CI
-      rating: 3.5
+      proficiency: 2
     - label: GitHub Actions
-      rating: 3.5
+      proficiency: 2
     - label: Vim
-      rating: 2
+      proficiency: 2
 
     # Libraries
     - label: GSAP
-      rating: 2.5
+      proficiency: 2
 
     # Frameworks
     - label: Vue
-      rating: 3.5
+      proficiency: 2.5
     - label: React
-      rating: 3
+      proficiency: 2
     - label: Svelte
-      rating: 1
+      proficiency: 1.5
     - label: WordPress
-      rating: 3
+      proficiency: 2.5
     - label: Pimcore
-      rating: 3.5
+      proficiency: 2
     - label: Bun
-      rating: 2
+      proficiency: 1.5
     - label: Symfony
-      rating: 2
-    - label: Pimcore
-      rating: 2
+      proficiency: 1.5
     - label: Bootstrap
-      rating: 5
+      proficiency: 3
     - label: Nuxt
-      rating: 3
+      proficiency: 2
     - label: Alpine.js
-      rating: 2
+      proficiency: 2
 
     # Operating Systems
     - label: Windows
-      rating: 4
+      proficiency: 2.5
     - label: Linux
-      rating: 5
+      proficiency: 3
     - label: MacOS
-      rating: 3
+      proficiency: 2
 
     # Skills
     - label: Microservices
-      rating: 3
+      proficiency: 1.5
     - label: l10n
-      rating: 1.5
+      proficiency: 2.5
     - label: Accessability
-      rating: 1.5
+      proficiency: 1.5
     - label: i18n
-      rating: 1.5
+      proficiency: 2
     - label: SEO
-      rating: 2
+      proficiency: 1
     - label: Web Performance
-      rating: 2
+      proficiency: 1.5
     - label: Origami
-      rating: 1
-    - label: PIM
-      rating: 3
+      proficiency: 2
 
 languages:
   title: Languages
