@@ -85,7 +85,7 @@
 
 <div class="flex flex-col pt-6 pr-4 pl-4 w-1/3 border-l-8 shrink-0 bg-aside border-border">
 	<img
-		src="portrait.webp"
+		src="portrait_placeholder.jpg"
 		alt=""
 		class="object-cover object-top mx-auto mb-6 w-1/2 rounded aspect-square"
 	/>
