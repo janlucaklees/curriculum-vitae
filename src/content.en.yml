@@ -231,7 +231,7 @@ achievements:
       description: >
         Revitalized a failing project that was half a year overdue. I took charge and restarted the
         process. By building weekly prototypes in close collaboration with the end-users, I
-        developed a simplified but effective solution. Within six months, <br> we were live.
+        developed a simplified but effective solution. Within six months, we were live.
     - title: Mentored Trainee to <br> Junior Developer
       icon: RocketOutline
       description: >
@@ -251,17 +251,19 @@ passions:
     #   description: >
     #     Achieved near-complete independence from Google and others by hosting my own cloud software
     #     and utilizing open-source apps. Committed to privacy and open-source solutions.
-    - title: Usability
+    - title: Usability and UX
       icon: HappyOutline
       description: >
-        I like thinking about usability and UX, making sure my solutions are intuitive with a well
-        structured UI. My extensive experience with helping non technical persons deal with their
-        computer problems really helps me here.
+        I am deeply passionate about usability, ensuring my solutions are user-friendly with
+        well-structured UIs. Years of creating web applications and helping friends and family with
+        software problems have sharpened my ability to design intuitive solutions.
     - title: Problem Solving
       icon: GolfOutline
       description: >
-        I am a natural problem-solver, I excel at breaking down intricate concepts into digestible
-        insights, making me an effective communicator. I collect iq puzzles.
+        I thrive on solving problems, whether it's improving inefficiencies or finding creative
+        solutions to everyday challenges. This passion has driven me to automate various aspects of
+        my life. I excel at breaking down intricate concepts into digestible insights, making me an
+        effective communicator.
 
 education:
   title: Education
