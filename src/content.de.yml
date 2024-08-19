@@ -1,0 +1,397 @@
+person:
+  title: About Me
+  name: DE Jan-Luca Klees
+  description: Senior Frontend Developer | DevOps Enthusiast
+  address:
+    line1: Hans-Hinrichs-Str. 2
+    line2: 32756 Detmold, Germany
+  phone:
+    href: tel:+4917648681314
+    label: +49 176 4868 1314
+  email:
+    href: mailto:email@janlucaklees.de
+    label: email@janlucaklees.de
+  github:
+    href: https://github.com/janlucaklees
+    label: github.com/janlucaklees
+  linkedin:
+    href: https://www.linkedin.com/in/janlucaklees/
+    label: linkedin.com/janlucaklees
+
+  summary: >
+    As a dynamic and versatile professional with a wealth of experience in front-end development,
+    DevOps and product ownership, I thrive on transforming complex problems into elegant solutions.
+    <br> I am committed to continuous learning and adaptation, always seeking new challenges and
+    opportunities to grow.
+
+# I thrive on continuous learning and tackling new challenges. Skilled in simplifying complex
+# concepts and known for proactive problem-solving, I seek environments that value personal growth
+# and innovation. So far I have been a detail oriented Frontend Developer. accumulating extensive
+# experience and outgrew that job description. My next gig needs to be something else.
+
+# As a dynamic and versatile professional with a wealth of experience in front-end development,
+# project management, customer success, and entrepreneurship, I thrive on transforming complex
+# problems into elegant solutions. My journey began with a keen interest in software development,
+# quickly expanding into diverse roles where I honed my skills in responsive design, user-friendly
+# interfaces, and innovative technical solutions.
+
+# I am passionate about leveraging modern technologies to create high-impact, intuitive
+# applications. My tenure as a Product Owner and Front-End Developer has equipped me with a deep
+# understanding of both the technical and customer-facing aspects of software development. Whether
+# it’s developing pixel-perfect WordPress sites or streamlining scientific simulations with
+# Docker-based systems, my focus remains on delivering excellence and fostering collaboration.
+
+# A natural problem-solver, I excel at breaking down intricate concepts into digestible insights,
+# making me an effective communicator and mentor. My entrepreneurial spirit led me to co-found
+# KAIZN, where I continue to drive our mission to revolutionize science and medicine through
+# open-source software.
+
+# I am committed to continuous learning and adaptation, always seeking new challenges and
+# opportunities to grow. My diverse background, combined with a proven track record of success,
+# makes me a valuable asset to any team looking to innovate and excel.
+
+# footer: See my full cv at <a href="https:/cv.janlucaklees.de">cv.janlucaklees.de</a>.
+
+experiences:
+  title: Experience
+  items:
+    - companyName: KAIZN UG
+      location: Remote
+      positions:
+        - jobTitle: Co-Founder
+          start: 2023-03-31
+          employmentType: ad-hoc
+          description: >
+            Streamlining science through intuitive and user-friendly open-source software, we want
+            to ease the development of new and better medications and make science accessible to
+            everyone.
+          successStories:
+            - Simplified code-sharing for researchers by building a Docker-based microservice system
+              for scientific simulations.
+            - Implemented a plugin system from the ground up to power our simulation software.
+
+    - companyName: LEANATIC GmbH
+      location: Remote
+      end: 2024-11-01
+      positions:
+        - jobTitle: Product Owner
+          start: 2023-08-01
+          employmentType: Full-time
+          description: >
+            I closely collaborated with customers to deeply understand their problems, managing
+            expectations, and communicating the cost implications of different solutions. I created
+            detailed Jira issues for my team and verified the results.
+          successStories:
+            - By presenting finished solutions to customers, I significantly reduced
+              dissatisfaction, questions, and post-completion adaptations.
+        - start: 2022-09-01
+          jobTitle: Project Manager
+          employmentType: Full-time
+          description: >
+            I gathered customer requirements and translated them into actionable tasks in Jira. I
+            collaborated with developers to create project timelines, maintained a comprehensive
+            overview of ongoing and upcoming projects, and communicated schedules with customers. I
+            was responsible for quality assessment, ensuring customer needs were met and preventing
+            regressions.
+          successStories:
+            - Advocated for strict adherence to deadlines to maintain profitability under a
+              fixed-price policy. This approach ensured projects were completed on time, preventing
+              financial losses and allowing for timely commencement of new projects. Additionally,
+              this strategy led to better management of customer expectations by pushing new
+              requests into separate contracts.
+            - Developed a clear and unified issue-workflow applied across all projects. This
+              provided full visibility into the status of issues throughout their lifecycle,
+              eliminating confusion about deployment status.
+        - start: 2020-01-01
+          jobTitle: Frontend Developer
+          employmentType: Full-time
+          description: >
+            Developed responsive and accessible web applications as part of a cross-functional,
+            agile team. Worked closely with customers to identify and implement effective solutions.
+          successStories:
+            - Implemented DevOps practices, eliminating the need for manual project setups, which
+              significantly reduced onboarding time and improved developer efficiency.
+            - Established Continuous Delivery pipelines, standardizing the deployment process across
+              projects, enabling everyone to deploy without headaches.
+            - Held regular, short developer meetings to raise awareness for code quality and
+              exchange knowledge, enabling the team to focus on improvement.
+            # - Introduced a unified branching workflow that allowed for independent feature releases,
+            #   resolving merging issues and leading to faster shipping times.
+            - Transitioned the team to trunk-based development, encouraging thoughtful commits and
+              drastically reducing workflow overhead.
+
+    - companyName: FLOW4 UG
+      location: Hamburg, Germany
+      end: 2019-11-01
+      positions:
+        - start: 2019-09-01
+          jobTitle: Web-Developer
+          employmentType: Part-time
+          description: >
+            Developed custom WordPress themes for highly interactive and visually engaging websites,
+            including web applications and marketing sites. Specialized in creating advanced
+            animations and dynamic user experiences using the GSAP animation library, making sites
+            both functional and captivating.
+          successStories:
+            - Developed a Docker-based development environment to automate and expedite project
+              setup. Although my tenure was short, this initiative demonstrated potential for
+              significant efficiency improvements in the development process.
+
+    - companyName: Phrase a.s.
+      location: Hamburg, Germany
+      end: 2018-07-01
+      positions:
+        - start: 2018-02-01
+          jobTitle: Technical Marketing Engineer
+          employmentType: Full-time
+          description: >
+            I optimized and modernized the company's marketing blog. My responsibilities included
+            implementing SEO best practices to enhance search engine visibility and ensuring the
+            blog's technical performance was top-notch.
+          successStories:
+            - Successfully reduced the blog’s load times by 65% through technical optimizations,
+              achieving higher search engine rankings. This greater visibility led to significantly
+              improved traffic, contributing to the blog’s popularity and success.
+        - start: 2017-04-01
+          jobTitle: Customer Success Manager
+          employmentType: Work Student
+          description: >
+            Responsible for answering customer inquiries and supporting them with integrating the
+            product into their workflows. I also maintained and upgraded the customer-facing
+            documentation, restructuring it to better serve the distinct user groups our product
+            had.
+          successStories:
+            - Identified three distinct user groups and restructured the documentation to be
+              role-centric, enhancing usability and forming the foundation for the marketing team’s
+              strategy.
+            - Established regular meetings for customer success employees to exchange and collect
+              knowledge, resulting in more pre-written responses that improved response times.
+            - Improved the efficiency and effectiveness of customer support by developing
+              comprehensive and accessible documentation, aiming to resolve inquiries through easily
+              shareable links.
+
+    - companyName: Interface One GmbH
+      location: Hamburg, Germany
+      end: 2017-03-01
+      positions:
+        - start: 2016-08-01
+          jobTitle: Fullstack Developer
+          employmentType: Work Student
+          description: >
+            Developed a real-time collaborative whiteboard application using Meteor with a JSP
+            backend.
+          successStories:
+            - Enhanced the user interface by implementing loading animations, providing feedback to
+              users and improving the app’s responsiveness and usability.
+            - Refactored the rendering logic for whiteboards by implementing an algorithm to filter
+              out non-visible elements, optimizing performance and making previously unusable,
+              element-heavy boards functional.
+
+    - companyName: Universität Hamburg
+      location: Hamburg, Germany
+      end: 2017-03-01
+      positions:
+        - start: 2015-10-01
+          jobTitle: Student Assistant
+          employmentType: Work Student
+          description: >
+            Supported programming labs, guiding students in applying basic programming concepts. I
+            reviewed their solutions, answered questions, and provided support, ensuring a clear
+            understanding of the material from the lecture.
+          successStories:
+            - Was popular with the students. Got to be known as a copy of my professor due to my
+              knowledge and looks.
+
+    - companyName: Freelance
+      location: Hamburg, Germany
+      end: 2017-03-01
+      positions:
+        - start: 2013-08-01
+          jobTitle: WordPress Freelancer
+          employmentType: Self-Employed
+          description: >
+            Created unique WordPress websites, making sure intricate designs were responsive,
+            mobile-friendly to ensure seamless user experiences across all devices. Paid special
+            attention to structuring the admin panel for ease of use.
+          successStories:
+            - Developed a custom RSVP application for a high-profile client, implementing an
+              algorithm to generate typo-resistant sign-up codes.
+
+achievements:
+  title: Achievements
+  items:
+    - title: Tree-Search Algorithm <br> for Civil Engineering
+      icon: GitCompareOutline
+      description: >
+        Created an algorithm to find the optimal combination of building elements for wastewater
+        systems, considering cost-efficiency and user-defined constraints. Employed caching and Web
+        Workers to ensure superb performance.
+    - title: Saved Failing Project
+      icon: PulseOutline
+      description: >
+        Revitalized a failing project that was half a year overdue. I took charge and restarted the
+        process. By building weekly prototypes in close collaboration with the end-users, I
+        developed a simplified but effective solution. Within six months, we were live.
+    - title: Mentored Trainee to <br> Junior Developer
+      icon: RocketOutline
+      description: >
+        Successfully mentored a trainee, providing guidance and support that enabled them to develop
+        their skills and transition into a junior developer role.
+    # - title: Language Proficiency Recognition
+    #   icon: RibbonOutline
+    #   description: >
+    #     Achieved a high level of proficiency in Japanese, receiving the ultimate compliment on my
+    #     last trip to Japan when I was asked twice how long I had been living there.
+
+passions:
+  title: Passions
+  items:
+    # - title: Digital Independence and Privacy
+    #   icon: ShieldOutline
+    #   description: >
+    #     Achieved near-complete independence from Google and others by hosting my own cloud software
+    #     and utilizing open-source apps. Committed to privacy and open-source solutions.
+    - title: Usability and UX
+      icon: HappyOutline
+      description: >
+        I am deeply passionate about usability, ensuring my solutions are user-friendly with
+        well-structured UIs. Years of creating web applications and helping friends and family with
+        software problems have sharpened my ability to design intuitive solutions.
+    - title: Problem Solving
+      icon: GolfOutline
+      description: >
+        I thrive on solving problems, whether it's improving inefficiencies or finding creative
+        solutions to everyday challenges. This passion has driven me to automate various aspects of
+        my life. I excel at breaking down intricate concepts into digestible insights, making me an
+        effective communicator.
+
+education:
+  title: Education
+  items:
+    - companyName: University of Hamburg
+      location: Hamburg, Germany
+      end: 2018-01-01
+      positions:
+        - start: 2014-10-01
+          jobTitle: B.Sc. in Theoretical Computer Science
+          employmentType: Student
+          description: >
+            81 credit points with an 1.8 average; Japanese studies as minor subject.
+          # successStories:
+          #   -  Object-Oriented Programming (Java), Functional Programming (Racket), Logic Programming
+          #     (Prolog), Assembly Language;
+
+skills:
+  title: Skills
+  items:
+    # Languages
+    - label: HTML5
+      proficiency: 3
+    - label: Regex
+      proficiency: 2.5
+    - label: Twig
+      proficiency: 2.5
+    - label: CSS
+      proficiency: 2.5
+    - label: SCSS
+      proficiency: 3
+    - label: JavaScript
+      proficiency: 3
+    - label: TypeScript
+      proficiency: 2
+    - label: PHP
+      proficiency: 2
+    - label: Python
+      proficiency: 1.5
+    - label: Julia
+      proficiency: 1
+    - label: Java
+      proficiency: 1
+    - label: Prolog
+      proficiency: 2.5
+    - label: Racket
+      proficiency: 2
+    - label: Bash
+      proficiency: 2
+    - label: Wasm
+      proficiency: 1
+    - label: C++
+      proficiency: 1
+    - label: Rust
+      proficiency: 1
+
+    # Tools
+    - label: Docker
+      proficiency: 3
+    - label: Docker-Compose
+      proficiency: 3
+    - label: Git
+      proficiency: 3
+    - label: GitLab CI
+      proficiency: 2
+    - label: GitHub Actions
+      proficiency: 2
+    - label: Vim
+      proficiency: 2
+
+    # Libraries
+    - label: GSAP
+      proficiency: 2
+
+    # Frameworks
+    - label: Vue
+      proficiency: 2.5
+    - label: React
+      proficiency: 2
+    - label: Svelte
+      proficiency: 1.5
+    - label: WordPress
+      proficiency: 2.5
+    - label: Pimcore
+      proficiency: 2
+    - label: Bun
+      proficiency: 1.5
+    - label: Symfony
+      proficiency: 1.5
+    - label: Bootstrap
+      proficiency: 3
+    - label: Nuxt
+      proficiency: 2
+    - label: Alpine.js
+      proficiency: 2
+
+    # Operating Systems
+    - label: Windows
+      proficiency: 2.5
+    - label: Linux
+      proficiency: 3
+    - label: MacOS
+      proficiency: 2
+
+    # Skills
+    - label: Microservices
+      proficiency: 1.5
+    - label: l10n
+      proficiency: 2.5
+    - label: Accessability
+      proficiency: 1.5
+    - label: i18n
+      proficiency: 2
+    - label: SEO
+      proficiency: 1
+    - label: Web Performance
+      proficiency: 1.5
+    - label: Origami
+      proficiency: 2
+
+languages:
+  title: Languages
+  items:
+    - label: German
+      rating: 5
+    - label: Japanese
+      rating: 3.5
+    - label: English
+      rating: 4.75
+    - label: Spanish
+      rating: 1.5

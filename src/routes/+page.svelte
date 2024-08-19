@@ -15,8 +15,19 @@
 	import SkillCloud from '../components/SkillCloud.svelte';
 	import Rating from '../components/rating.svelte';
 
-	// import content from '../content.print.en.yml';
-	import content from '../content.en.yml';
+	import { locale } from '../stores/locale';
+
+	import contentPrintEN from '../content.print.en.yml';
+	import contentPrintDE from '../content.print.de.yml';
+	import contentEN from '../content.en.yml';
+	import contentDE from '../content.de.yml';
+
+	const contentMap = {
+		de: contentDE,
+		en: contentEN
+	};
+
+	$: content = contentMap[$locale];
 </script>
 
 <div class="pt-6 pr-4 pl-4 border-r-8 border-transparent">

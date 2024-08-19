@@ -1,0 +1,287 @@
+person:
+  title: Über mich
+  name: Jan-Luca Klees
+  description: Senior Frontend-Entwickler | DevOps-Enthusiast
+  address:
+    line1: Hans-Hinrichs-Str. 2
+    line2: 32756 Detmold, Deutschland
+  phone:
+    href: tel:+4917648681314
+    label: +49 176 4868 1314
+  email:
+    href: mailto:email@janlucaklees.de
+    label: email@janlucaklees.de
+  github:
+    href: https://github.com/janlucaklees
+    label: github.com/janlucaklees
+  linkedin:
+    href: https://www.linkedin.com/in/janlucaklees/
+    label: linkedin.com/janlucaklees
+
+  summary: >
+    Als dynamischer und vielseitiger Profi mit umfangreicher Erfahrung in der Frontend-Entwicklung,
+    DevOps und Product-Ownership liebe ich es, elegante Lösungen für komplexe Herausforderungen zu
+    schaffen. Ich bin immer bestrebt, dazuzulernen, mich weiterzuentwickeln und neue
+    Herausforderungen anzugehen.
+
+footer:
+  Meinen vollständigen Lebenslauf gibts unter <a
+  href="https:/cv.janlucaklees.de">cv.janlucaklees.de</a>.
+
+experiences:
+  title: Ausgewählte Berufserfahrung
+  items:
+    - companyName: KAIZN UG
+      location: Remote
+      positions:
+        - jobTitle: Mitgründer
+          start: 2023-03-31
+          employmentType: Ad-hoc
+          description: >
+            Entwicklung benutzerfreundlicher Open-Source-Software, um die wissenschaftliche
+            Forschung zu vereinfachen und so die Entwicklung neuer Medikamente zu beschleunigen und
+            Wissenschaft für alle zugänglich zu machen.
+          successStories:
+            - Entwicklung eines eigenen Plugin-Systems für unsere Simulationssoftware.
+
+    - companyName: LEANATIC GmbH
+      location: Remote
+      end: 2024-11-01
+      positions:
+        - jobTitle: Product Owner
+          start: 2023-08-01
+          employmentType: Vollzeit
+          description: >
+            In enger Zusammenarbeit mit dem Kunden erfass derer Anforderungen, Kommunikation von
+            Lösungsmöglichkeiten und deren Kosten sowie Erstellung von detaillierten Jira-Tickets
+            für das Team.
+          successStories:
+            - Durch die Präsentation fertiger Lösungen konnte ich Unzufriedenheit und Nachfragen
+              seitens der Kunden erheblich reduzieren.
+        - start: 2020-01-01
+          jobTitle: Frontend-Entwickler
+          employmentType: Vollzeit
+          description: >
+            Entwicklung responsiver und barrierefreier Webanwendungen im Rahmen eines agilen,
+            funktionsübergreifenden Teams. Enge Zusammenarbeit mit Kunden zur Identifikation und
+            Umsetzung effektiver Lösungen.
+          successStories:
+            - Einführung von DevOps-Praktiken, wodurch manuelle Projekt-Setups überflüssig wurden
+              und die Effizienz des Teams erheblich gesteigert wurde.
+            - Aufbau von Continuous Delivery-Pipelines zur Standardisierung des
+              Bereitstellungsprozesses und Vermeidung von Problemen bei der Bereitstellung.
+            - Regelmäßige kurze Entwicklermeetings eingeführt, um das Bewusstsein für Codequalität
+              zu stärken und Wissen im Team zu teilen.
+            - Umstellung auf trunk-basierte Entwicklung, was den Workflow deutlich vereinfachte und
+              die Produktivität steigerte.
+
+    - companyName: Phrase a.s.
+      location: Hamburg, Deutschland
+      end: 2018-07-01
+      positions:
+        - start: 2018-02-01
+          jobTitle: Technischer Marketing-Ingenieur
+          employmentType: Vollzeit
+          description: >
+            Optimierung und Modernisierung des Unternehmensblogs durch Implementierung von SEO-Best
+            Practices und Sicherstellung der technischen Leistung.
+          successStories:
+            - Reduzierung der Ladezeiten des Blogs um 65%, was zu besseren Suchmaschinen-Rankings
+              und einem deutlichen Anstieg des Traffics führte.
+        - start: 2017-04-01
+          jobTitle: Customer Success Manager
+          employmentType: Werkstudent
+          description: >
+            Beantwortung von Kundenanfragen und Unterstützung bei der Integration des Produkts in
+            ihre Arbeitsabläufe. Pflege und Verbesserung der Dokumentation für verschiedene
+            Nutzergruppen.
+          successStories:
+            - Identifizierung von drei Nutzergruppen und Neustrukturierung der Dokumentation, was
+              die Benutzerfreundlichkeit erhöhte und die Marketingstrategie unterstützte.
+            - Etablierung regelmäßiger Meetings für das Customer Success Team zur Verbesserung der
+              Wissensweitergabe und der Reaktionszeiten.
+
+    - companyName: Universität Hamburg
+      location: Hamburg, Deutschland
+      end: 2017-03-01
+      positions:
+        - start: 2015-10-01
+          jobTitle: Studentische Hilfskraft
+          employmentType: Werkstudent
+          description: >
+            Unterstützung bei Programmierübungen und Betreuung von Studierenden, um ihnen die
+            Anwendung der vermittelten Konzepte zu erleichtern und Fragen zu klären.
+
+    - companyName: Freiberuflich
+      location: Hamburg, Deutschland
+      end: 2017-03-01
+      positions:
+        - start: 2013-08-01
+          jobTitle: WordPress Freelancer
+          employmentType: Selbstständig
+          description: >
+            Erstellung einzigartiger WordPress-Websites mit Fokus auf responsives Design und
+            Benutzerfreundlichkeit, sowohl im Frontend als auch im Admin-Bereich.
+          successStories:
+            - Entwicklung einer maßgeschneiderten RSVP-Anwendung für einen hochkarätigen Kunden, die
+              durch fehlerresistente Anmeldecodes besticht.
+
+achievements:
+  title: Erfolge
+  items:
+    - title: Tree-Search-Algorithmus <br> für den Bauingenieurwesen
+      icon: GitCompareOutline
+      description: >
+        Entwicklung eines Algorithmus zur Optimierung von Bauelementen in Abwassersystemen unter
+        Berücksichtigung der Kosten und spezifischer Anforderungen, mit Caching und Web Workers für
+        hohe Leistung.
+    - title: Gescheitertes Projekt gerettet
+      icon: PulseOutline
+      description: >
+        Wiederbelebung eines gescheiterten Projekts, das sechs Monate hinter dem Zeitplan lag. Durch
+        enge Zusammenarbeit mit den Endnutzern und wöchentliche Prototypen konnte innerhalb von
+        sechs Monaten eine funktionale Lösung bereitgestellt werden.
+    - title: Auszubildenden zum <br> Junior-Entwickler betreut
+      icon: RocketOutline
+      description: >
+        Erfolgreiche Betreuung eines Auszubildenden, der dadurch die Qualifikation zum
+        Junior-Entwickler erlangte.
+
+passions:
+  title: Leidenschaften
+  items:
+    - title: Benutzerfreundlichkeit und UX
+      icon: HappyOutline
+      description: >
+        Meine Leidenschaft gilt der Benutzerfreundlichkeit. Ich sorge dafür, dass meine Lösungen
+        intuitiv und einfach zu bedienen sind, was durch jahrelange Erfahrung in der Entwicklung von
+        Webanwendungen und der Unterstützung von Freunden und Familie bei Softwareproblemen
+        geschärft wurde.
+    - title: Problemlösung
+      icon: GolfOutline
+      description: >
+        Ich liebe es, Probleme zu lösen, sei es durch die Beseitigung von Ineffizienzen oder die
+        Entwicklung kreativer Lösungen für alltägliche Herausforderungen. Diese Leidenschaft hat
+        mich dazu gebracht, viele Aspekte meines Lebens zu automatisieren.
+
+education:
+  title: Bildung
+  items:
+    - companyName: Universität Hamburg
+      location: Hamburg, Deutschland
+      end: 2018-01-01
+      positions:
+        - start: 2014-10-01
+          jobTitle: B.Sc. in Theoretische Informatik
+          employmentType: Student
+          description: >
+            81 Credit Points mit einem Notendurchschnitt von 1,8; Nebenfach: Japanologie.
+
+skills:
+  title: Fähigkeiten
+  items:
+    - label: HTML5
+      proficiency: 3
+    - label: Regex
+      proficiency: 2.5
+    - label: Twig
+      proficiency: 2.5
+    - label: CSS
+      proficiency: 2.5
+    - label: SCSS
+      proficiency: 3
+    - label: JavaScript
+      proficiency: 3
+    - label: TypeScript
+      proficiency: 2
+    - label: PHP
+      proficiency: 2
+    - label: Python
+      proficiency: 1.5
+    - label: Julia
+      proficiency: 1
+    - label: Java
+      proficiency: 1
+    - label: Prolog
+      proficiency: 2.5
+    - label: Racket
+      proficiency: 2
+    - label: Bash
+      proficiency: 2
+    - label: Wasm
+      proficiency: 1
+    - label: C++
+      proficiency: 1
+    - label: Rust
+      proficiency: 1
+
+    - label: Docker
+      proficiency: 3
+    - label: Docker-Compose
+      proficiency: 3
+    - label: Git
+      proficiency: 3
+    - label: GitLab CI
+      proficiency: 2
+    - label: GitHub Actions
+      proficiency: 2
+    - label: Vim
+      proficiency: 2
+
+    - label: GSAP
+      proficiency: 2
+
+    - label: Vue
+      proficiency: 2.5
+    - label: React
+      proficiency: 2
+    - label: Svelte
+      proficiency: 1.5
+    - label: WordPress
+      proficiency: 2.5
+    - label: Pimcore
+      proficiency: 2
+    - label: Bun
+      proficiency: 1.5
+    - label: Symfony
+      proficiency: 1.5
+    - label: Bootstrap
+      proficiency: 3
+    - label: Nuxt
+      proficiency: 2
+    - label: Alpine.js
+      proficiency: 2
+
+    - label: Windows
+      proficiency: 2.5
+    - label: Linux
+      proficiency: 3
+    - label: MacOS
+      proficiency: 2
+
+    - label: Microservices
+      proficiency: 1.5
+    - label: l10n
+      proficiency: 2.5
+    - label: Barrierefreiheit
+      proficiency: 1.5
+    - label: i18n
+      proficiency: 2
+    - label: SEO
+      proficiency: 1
+    - label: Web-Performance
+      proficiency: 1.5
+    - label: Origami
+      proficiency: 2
+
+languages:
+  title: Sprachen
+  items:
+    - label: Deutsch
+      rating: 5
+    - label: Japanisch
+      rating: 3.5
+    - label: Englisch
+      rating: 4.75
+    - label: Spanisch
+      rating: 1.5
