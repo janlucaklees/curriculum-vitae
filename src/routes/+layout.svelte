@@ -12,7 +12,6 @@
 	main {
 		width: 210mm;
 		min-height: 297mm;
-		/* height: 297mm; */
 		overflow: hidden;
 
 		background-color: var(--page);
