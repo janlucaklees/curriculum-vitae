@@ -11,11 +11,37 @@
 }
 
 :root {
-	--color: #1c1c1c;
+	background-color: var(--background);
 
 	font-family: 'Rubik', sans-serif;
 	font-size: 11px;
 	line-height: 1.25;
 
 	color: var(--color);
+}
+
+:root {
+	--color: #1c1c1c;
+	--color-aside: #fffffb;
+	--subline: #f05e1c;
+	--rating: #f05e1ccc;
+
+	--background: #fffffb;
+	--page: #fffffb;
+	--aside: #1f5195;
+	--border: #1c1c1caa;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color: #bdc0ba;
+		--color-aside: #fcfaf2;
+		--subline: #f05e1c;
+		--rating: #f05e1c;
+
+		--background: #0c0c0c;
+		--page: #1c1c1c;
+		--aside: #1a2e44;
+		--border: #1f5195aa;
+	}
 }

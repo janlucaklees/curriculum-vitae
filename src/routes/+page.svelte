@@ -170,8 +170,6 @@
 
 <style>
 	.bg-aside {
-		--color: #fffffb;
-
-		color: var(--color);
+		color: var(--color-aside);
 	}
 </style>
