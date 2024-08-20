@@ -171,5 +171,6 @@
 <style>
 	.bg-aside {
 		color: var(--color-aside);
+		--color: var(--color-aside);
 	}
 </style>
