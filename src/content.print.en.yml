@@ -55,20 +55,20 @@ footer: See my full cv at <a href="https:/cv.janlucaklees.de">cv.janlucaklees.de
 experiences:
   title: Selected Experiences
   items:
-    - companyName: KAIZN UG
-      location: Remote
-      positions:
-        - jobTitle: Co-Founder
-          start: 2023-03-31
-          employmentType: ad-hoc
-          description: >
-            Streamlining science through intuitive and user-friendly open-source software, we want
-            to ease the development of new and better medications and make science accessible to
-            everyone.
-          successStories:
-            # - Simplified code-sharing for researchers by building a Docker-based microservice system
-            #   for scientific simulations.
-            - Implemented a plugin system from the ground up to power our simulation software.
+    # - companyName: KAIZN UG
+    #   location: Remote
+    #   positions:
+    #     - jobTitle: Co-Founder
+    #       start: 2023-03-31
+    #       employmentType: ad-hoc
+    #       description: >
+    #         Streamlining science through intuitive and user-friendly open-source software, we want
+    #         to ease the development of new and better medications and make science accessible to
+    #         everyone.
+    #       successStories:
+    #         # - Simplified code-sharing for researchers by building a Docker-based microservice system
+    #         #   for scientific simulations.
+    #         - Implemented a plugin system from the ground up to power our simulation software.
 
     - companyName: LEANATIC GmbH
       location: Remote

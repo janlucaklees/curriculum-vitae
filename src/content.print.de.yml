@@ -31,18 +31,18 @@ footer:
 experiences:
   title: Ausgewählte Berufserfahrung
   items:
-    - companyName: KAIZN UG
-      location: Remote
-      positions:
-        - jobTitle: Mitgründer
-          start: 2023-03-31
-          employmentType: Ad-hoc
-          description: >
-            Entwicklung benutzerfreundlicher Open-Source-Software, um die wissenschaftliche
-            Forschung zu vereinfachen und so die Entwicklung neuer Medikamente zu beschleunigen und
-            Wissenschaft für alle zugänglich zu machen.
-          successStories:
-            - Entwicklung eines eigenen Plugin-Systems für unsere Simulationssoftware.
+    # - companyName: KAIZN UG
+    #   location: Remote
+    #   positions:
+    #     - jobTitle: Mitgründer
+    #       start: 2023-03-31
+    #       employmentType: Ad-hoc
+    #       description: >
+    #         Entwicklung benutzerfreundlicher Open-Source-Software, um die wissenschaftliche
+    #         Forschung zu vereinfachen und so die Entwicklung neuer Medikamente zu beschleunigen und
+    #         Wissenschaft für alle zugänglich zu machen.
+    #       successStories:
+    #         - Entwicklung eines eigenen Plugin-Systems für unsere Simulationssoftware.
 
     - companyName: LEANATIC GmbH
       location: Remote
