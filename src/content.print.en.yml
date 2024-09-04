@@ -383,6 +383,14 @@ skills:
       proficiency: 1.5
     - label: Origami
       proficiency: 2
+    - label: Functional Programming
+      proficiency: 2.5
+    - label: Object Oriented Programming
+      proficiency: 2.5
+
+    # Methodologies
+    - label: Agile
+      proficiency: 2
 
 languages:
   title: Languages
