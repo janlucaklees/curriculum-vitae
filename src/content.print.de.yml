@@ -21,11 +21,10 @@ person:
   summary: >
     Als dynamischer und vielseitiger Profi mit umfangreicher Erfahrung in der Frontend-Entwicklung,
     DevOps und Product-Ownership liebe ich es, elegante Lösungen für komplexe Herausforderungen zu
-    schaffen. Ich bin immer bestrebt, dazuzulernen, mich weiterzuentwickeln und neue
-    Herausforderungen anzugehen.
+    schaffen. Ich bin immer bestrebt, dazuzulernen und mich weiterzuentwickeln.
 
 footer:
-  Meinen vollständigen Lebenslauf gibts unter <a
+  Meinen vollständigen Lebenslauf gibt's gerade nur auf Englisch unter <a
   href="https:/cv.janlucaklees.de">cv.janlucaklees.de</a>.
 
 experiences:
@@ -52,12 +51,13 @@ experiences:
           start: 2023-08-01
           employmentType: Vollzeit
           description: >
-            In enger Zusammenarbeit mit dem Kunden erfass derer Anforderungen, Kommunikation von
-            Lösungsmöglichkeiten und deren Kosten sowie Erstellung von detaillierten Jira-Tickets
-            für das Team.
+            Durch agiles Vorgehen, Prototyping und engem Kundenkontakt ist es mir stets gelungen,
+            die Anforderungen des Kunden zu durchdringen, Lösungsmöglichkeiten und deren Kosten klar
+            zu kommunizieren und per QA sicherzustellen, dass diese wie versprochen geliefert
+            wurden.
           successStories:
-            - Durch die Präsentation fertiger Lösungen konnte ich Unzufriedenheit und Nachfragen
-              seitens der Kunden erheblich reduzieren.
+            - Indem ich fertige Lösungen zusammen mit dem Kunden durchgegangen bin, habe ich
+              Unklarheiten und damit Unzufriedenheit erheblich reduziert.
         - start: 2020-01-01
           jobTitle: Frontend-Entwickler
           employmentType: Vollzeit
@@ -66,14 +66,16 @@ experiences:
             funktionsübergreifenden Teams. Enge Zusammenarbeit mit Kunden zur Identifikation und
             Umsetzung effektiver Lösungen.
           successStories:
-            - Einführung von DevOps-Praktiken, wodurch manuelle Projekt-Setups überflüssig wurden
-              und die Effizienz des Teams erheblich gesteigert wurde.
-            - Aufbau von Continuous Delivery-Pipelines zur Standardisierung des
-              Bereitstellungsprozesses und Vermeidung von Problemen bei der Bereitstellung.
-            - Regelmäßige kurze Entwicklermeetings eingeführt, um das Bewusstsein für Codequalität
-              zu stärken und Wissen im Team zu teilen.
-            - Umstellung auf trunk-basierte Entwicklung, was den Workflow deutlich vereinfachte und
-              die Produktivität steigerte.
+            - Mit der Einführung von DevOps-Praktiken habe ich erreicht, dass Projekte automatisch
+              aufgesetzt werden können. Eine große Zeitersparnis für alle Entwickler.
+            - Durch den Aufbau von Continuous-Delivery-Pipelines kann nun jeder Entwickler
+              selbstständig deployen. Anstatt vereinzelter Deploys in der Woche deployen wir jetzt
+              mehrmals täglich.
+            - Ich habe regelmäßige, kurze Entwicklermeetings eingeführt, die auf großen Zuspruch
+              gestoßen sind und stets den Wissensaustausch angeregt haben.
+            - Mein Anstoß zur Umstellung auf Trunk-Based Development hat unseren Workflow deutlich
+              vereinfacht. Statt mehrerer Branches und Merge-Requests genügt inzwischen ein einziger
+              Push, um seine Änderungen zu deployen.
 
     - companyName: Phrase a.s.
       location: Hamburg, Deutschland
@@ -83,21 +85,20 @@ experiences:
           jobTitle: Technischer Marketing-Ingenieur
           employmentType: Vollzeit
           description: >
-            Optimierung und Modernisierung des Unternehmensblogs durch Implementierung von SEO-Best
-            Practices und Sicherstellung der technischen Leistung.
+            Meine Aufgaben umfassten die Optimierung und Modernisierung des Unternehmensblogs.
           successStories:
-            - Reduzierung der Ladezeiten des Blogs um 65%, was zu besseren Suchmaschinen-Rankings
+            - Reduzierung der Ladezeiten des Blogs um 65 %, was zu besseren Suchmaschinen-Rankings
               und einem deutlichen Anstieg des Traffics führte.
         - start: 2017-04-01
           jobTitle: Customer Success Manager
           employmentType: Werkstudent
           description: >
             Beantwortung von Kundenanfragen und Unterstützung bei der Integration des Produkts in
-            ihre Arbeitsabläufe. Pflege und Verbesserung der Dokumentation für verschiedene
-            Nutzergruppen.
+            deren Arbeitsabläufe. Pflege und Verbesserung der Dokumentation.
           successStories:
-            - Identifizierung von drei Nutzergruppen und Neustrukturierung der Dokumentation, was
-              die Benutzerfreundlichkeit erhöhte und die Marketingstrategie unterstützte.
+            - Identifizierung von drei Nutzergruppen und entsprechende Neustrukturierung der
+              Dokumentation, was die Benutzerfreundlichkeit erhöhte und die Marketingstrategie
+              unterstützte.
             - Etablierung regelmäßiger Meetings für das Customer Success Team zur Verbesserung der
               Wissensweitergabe und der Reaktionszeiten.
 
@@ -109,8 +110,8 @@ experiences:
           jobTitle: Studentische Hilfskraft
           employmentType: Werkstudent
           description: >
-            Unterstützung bei Programmierübungen und Betreuung von Studierenden, um ihnen die
-            Anwendung der vermittelten Konzepte zu erleichtern und Fragen zu klären.
+            Betreuung der Studierenden bei Programmierübungen, Unterstützung beim Anwenden der in
+            der Vorlesung vermittelten Konzepte.
 
     - companyName: Freiberuflich
       location: Hamburg, Deutschland
@@ -120,27 +121,28 @@ experiences:
           jobTitle: WordPress Freelancer
           employmentType: Selbstständig
           description: >
-            Erstellung einzigartiger WordPress-Websites mit Fokus auf responsives Design und
+            Erstellung einzigartiger WordPress-Websites mit Fokus auf responsivem Design und
             Benutzerfreundlichkeit, sowohl im Frontend als auch im Admin-Bereich.
           successStories:
-            - Entwicklung einer maßgeschneiderten RSVP-Anwendung für einen hochkarätigen Kunden, die
-              durch fehlerresistente Anmeldecodes besticht.
+            - Entwicklung einer maßgeschneiderten RSVP-Anwendung für einen bekannten
+              Fernsehmoderator, die durch fehlerresistente Anmeldecodes besticht.
 
 achievements:
   title: Erfolge
   items:
-    - title: Tree-Search-Algorithmus <br> für den Bauingenieurwesen
+    - title: Tree-Search-Algorithmus <br> für den Tiefbau
       icon: GitCompareOutline
       description: >
-        Entwicklung eines Algorithmus zur Optimierung von Bauelementen in Abwassersystemen unter
-        Berücksichtigung der Kosten und spezifischer Anforderungen, mit Caching und Web Workers für
-        hohe Leistung.
-    - title: Gescheitertes Projekt gerettet
+        Entwicklung eines Algorithmus, welcher, unter Berücksichtigung von Kosten und
+        Nutzer-spezifischen Anforderungen, die optimale Kombination von Bauelementen findet. Dank
+        cleverem Caching läuft der Algorithmus blitzschnell als Web Worker.
+    - title: Scheiterndes Projekt gerettet
       icon: PulseOutline
       description: >
-        Wiederbelebung eines gescheiterten Projekts, das sechs Monate hinter dem Zeitplan lag. Durch
-        enge Zusammenarbeit mit den Endnutzern und wöchentliche Prototypen konnte innerhalb von
-        sechs Monaten eine funktionale Lösung bereitgestellt werden.
+        Ein auf ein Jahr angesetztes Projekt, war bereits ein halbes Jahr überzogen, der Kunde mit
+        den erarbeiteten Lösungen unzufrieden. Ich habe das Projekt übernommen. Durch enge
+        Zusammenarbeit mit den Endnutzern und wöchentliche Iterationen waren wir innerhalb von 6
+        Monaten fertig.
     - title: Auszubildenden zum <br> Junior-Entwickler betreut
       icon: RocketOutline
       description: >
@@ -153,16 +155,15 @@ passions:
     - title: Benutzerfreundlichkeit und UX
       icon: HappyOutline
       description: >
-        Meine Leidenschaft gilt der Benutzerfreundlichkeit. Ich sorge dafür, dass meine Lösungen
-        intuitiv und einfach zu bedienen sind, was durch jahrelange Erfahrung in der Entwicklung von
-        Webanwendungen und der Unterstützung von Freunden und Familie bei Softwareproblemen
-        geschärft wurde.
+        Meine Leidenschaft gilt der Benutzerfreundlichkeit. Durch jahrelange Erfahrung in der
+        Entwicklung von Webanwendungen und Interaktion mit deren Nutzern habe ich ein geschultes
+        Auge für UX. So zeichnen sich meine Lösungen stets durch intuitive Nutzbarkeit aus.
     - title: Problemlösung
       icon: GolfOutline
       description: >
-        Ich liebe es, Probleme zu lösen, sei es durch die Beseitigung von Ineffizienzen oder die
-        Entwicklung kreativer Lösungen für alltägliche Herausforderungen. Diese Leidenschaft hat
-        mich dazu gebracht, viele Aspekte meines Lebens zu automatisieren.
+        Ich liebe es, Probleme zu durchdringen und zu lösen, sei es die Beseitigung von
+        Ineffizienzen oder die Entwicklung kreativer Lösungen für alltägliche Herausforderungen.
+        Diese Leidenschaft hat mich dazu gebracht, viele Aspekte meines Lebens zu automatisieren.
 
 education:
   title: Bildung
@@ -172,10 +173,10 @@ education:
       end: 2018-01-01
       positions:
         - start: 2014-10-01
-          jobTitle: B.Sc. in Theoretische Informatik
+          jobTitle: B.Sc. Theoretische Informatik
           employmentType: Student
           description: >
-            81 Credit Points mit einem Notendurchschnitt von 1,8; Nebenfach: Japanologie.
+            81 Credit-Points mit einem Notendurchschnitt von 1,8; Nebenfach: Japanologie.
 
 skills:
   title: Fähigkeiten
