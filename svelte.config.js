@@ -13,7 +13,10 @@ const config = {
 			assets: 'docs',
 			fallback: undefined,
 			precompress: true
-		})
+		}),
+		alias: {
+			$components: 'src/components'
+		}
 	}
 };
 

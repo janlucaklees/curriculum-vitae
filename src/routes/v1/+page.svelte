@@ -8,19 +8,19 @@
 	} from 'svelte-ionicons';
 	import * as Icons from 'svelte-ionicons';
 
-	import CardCondensed from '../components/cardCondensed.svelte';
-	import Experience from '../components/experience.svelte';
-	import IconInfo from '../components/IconInfo.svelte';
-	import Section from '../components/section.svelte';
-	import SkillCloud from '../components/SkillCloud.svelte';
-	import Rating from '../components/rating.svelte';
+	import CardCondensed from '$components/cardCondensed.svelte';
+	import Experience from '$components/experience.svelte';
+	import IconInfo from '$components/IconInfo.svelte';
+	import Section from '$components/section.svelte';
+	import SkillCloud from '$components/SkillCloud.svelte';
+	import Rating from '$components/rating.svelte';
 
-	import { locale } from '../stores/locale';
+	import { locale } from '../../stores/locale';
 
-	import contentPrintEN from '../content.print.en.yml';
-	import contentPrintDE from '../content.print.de.yml';
-	import contentEN from '../content.en.yml';
-	import contentDE from '../content.de.yml';
+	import contentPrintEN from './content.print.en.yml';
+	import contentPrintDE from './content.print.de.yml';
+	import contentEN from './content.en.yml';
+	import contentDE from './content.de.yml';
 
 	const contentMap = {
 		de: contentDE,
