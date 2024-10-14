@@ -2,6 +2,25 @@
 	import { add, differenceInCalendarMonths, format, compareDesc } from 'date-fns';
 	import { CaretForward, Ellipse, EllipseOutline, TrophyOutline } from 'svelte-ionicons';
 
+	import { locale } from '$stores/locale';
+
+	const translations = {
+		de: {
+			since: 'seit',
+			year: 'Jahr',
+			years: 'Jahre',
+			month: 'Monat',
+			months: 'Monate'
+		},
+		en: {
+			since: 'since',
+			year: 'yr',
+			years: 'yrs',
+			month: 'mo',
+			months: 'mos'
+		}
+	};
+
 	export let className = '';
 	export let companyName;
 	export let location;
@@ -20,12 +39,16 @@
 
 		let ret = '';
 
-		if (years > 0) {
-			ret += `${years} yrs `;
+		if (years === 1) {
+			ret += `${years} ${translations[$locale].year} `;
+		} else if (years > 1) {
+			ret += `${years} ${translations[$locale].years} `;
 		}
 
-		if (months > 0) {
-			ret += `${months} mos `;
+		if (months === 1) {
+			ret += `${months} ${translations[$locale].month} `;
+		} else if (months > 1) {
+			ret += `${months} ${translations[$locale].months} `;
 		}
 
 		return ret;
@@ -83,7 +106,7 @@
 				<p class="ml-auto leading-none">
 					<span class="text-gray-300">
 						{position.employmentType}
-						since
+						{translations[$locale].since}
 					</span>
 					{format(position.start, 'LL/yyyy')}
 				</p>
