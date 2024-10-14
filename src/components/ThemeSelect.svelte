@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	import { selectedTheme, changeTheme, supportedThemes } from '../stores/theme';
+	import { selectedTheme, changeTheme, supportedThemes } from '$stores/theme';
 
 	function handleThemeChange(event) {
 		changeTheme(event.target.value);

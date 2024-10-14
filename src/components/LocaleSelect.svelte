@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { locale, changeLocale, supportedLocales } from '../stores/locale';
+	import { locale, changeLocale, supportedLocales } from '$stores/locale';
 
 	function handleLocaleChange(event) {
 		changeLocale(event.target.value);
