@@ -102,17 +102,6 @@ experiences:
             - Etablierung regelmäßiger Meetings für das Customer Success Team zur Verbesserung der
               Wissensweitergabe und der Reaktionszeiten.
 
-    - companyName: Universität Hamburg
-      location: Hamburg, Deutschland
-      end: 2017-03-01
-      positions:
-        - start: 2015-10-01
-          jobTitle: Studentische Hilfskraft
-          employmentType: Werkstudent
-          description: >
-            Betreuung der Studierenden bei Programmierübungen, Unterstützung beim Anwenden der in
-            der Vorlesung vermittelten Konzepte.
-
     - companyName: Freiberuflich
       location: Hamburg, Deutschland
       end: 2017-03-01
@@ -166,8 +155,19 @@ passions:
         Diese Leidenschaft hat mich dazu gebracht, viele Aspekte meines Lebens zu automatisieren.
 
 education:
-  title: Bildung
+  title: Ausbildung
   items:
+    - companyName: Universität Hamburg
+      location: Hamburg, Deutschland
+      end: 2017-03-01
+      positions:
+        - start: 2015-10-01
+          jobTitle: Studentische Hilfskraft
+          employmentType: Werkstudent
+          description: >
+            Betreuung der Studierenden bei Programmierübungen, Unterstützung beim Anwenden der in
+            der Vorlesung vermittelten Konzepte.
+
     - companyName: Universität Hamburg
       location: Hamburg, Deutschland
       end: 2018-01-01
@@ -176,7 +176,8 @@ education:
           jobTitle: B.Sc. Theoretische Informatik
           employmentType: Student
           description: >
-            81 Credit-Points mit einem Notendurchschnitt von 1,8; Nebenfach: Japanologie.
+            Abgebrochen aufgrund fehlenden Praxisbezugs und meiner Präferenz konkrete Ergebnisse und
+            Lösungen zu schaffen. Credit-Points: 81; Notendurchschnitt: 1,8; Nebenfach: Japanologie
 
 skills:
   title: Fähigkeiten
