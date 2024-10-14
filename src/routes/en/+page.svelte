@@ -15,19 +15,7 @@
 	import SkillCloud from '$components/SkillCloud.svelte';
 	import Rating from '$components/rating.svelte';
 
-	import { locale } from '../../stores/locale';
-
-	import contentPrintEN from './content.print.en.yml';
-	import contentPrintDE from './content.print.de.yml';
-	import contentEN from './content.en.yml';
-	import contentDE from './content.de.yml';
-
-	const contentMap = {
-		de: contentDE,
-		en: contentEN
-	};
-
-	$: content = contentMap[$locale];
+	import content from './content.yml';
 </script>
 
 <div class="pt-6 pr-4 pl-4 border-r-8 border-transparent">
@@ -96,7 +84,7 @@
 
 <div class="flex flex-col pt-6 pr-4 pl-4 w-1/3 border-l-8 shrink-0 bg-aside border-border">
 	<img
-		src="portrait.jpg"
+		src="/portrait.jpg"
 		alt=""
 		class="object-cover object-top mx-auto mb-6 w-1/2 rounded aspect-square"
 	/>
