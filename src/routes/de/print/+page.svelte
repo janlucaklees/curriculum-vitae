@@ -81,6 +81,9 @@
 
 	{#if content.skills}
 		<Section title={content.skills.title}>
+			<p class="pb-4 font-light leading-tight whitespace-pre-line">
+				{@html content.skills.summary}
+			</p>
 			<SkillCloud
 				skills={content.skills.items}
 				maxProficiency={3}

@@ -181,6 +181,8 @@ education:
 
 skills:
   title: Fähigkeiten
+  summary: |
+    Hier eine Übersicht meiner Fähigkeiten, die meisten habe ich im Selbststudium erworben.
   items:
     - label: HTML5
       proficiency: 3
