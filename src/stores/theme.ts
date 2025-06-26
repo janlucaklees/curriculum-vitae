@@ -37,7 +37,7 @@ export const supportedThemes = {
 			subline: '#F05E1C',
 			rating: '#F05E1CCC',
 			// aside: 'hsla(208, 100%, 30%, .666)',
-			aside: '#1f5195',
+			aside: '#27548A',
 			border: '#1c1c1caa'
 		}
 	},

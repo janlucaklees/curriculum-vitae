@@ -1,0 +1,225 @@
+title: Jan-Luca Klees
+
+summary: >
+  Frontend-focused problem solver with 10+ years of experience, from freelance web dev to
+  cross-functional Tech & Product Lead. I connect clients, designers, and developers to turn
+  ambiguity into well-crafted solutions. <br /><br /> Burned out, quit. Since then: 👶 first child,
+  🎓 started part-time MBA, 🇯🇵 caregiving in Japan, 🚀 startup attempt, 💻 built a baby monitor web
+  app.
+
+info:
+  title: About Me
+  items:
+    - label: Name
+      value: Jan-Luca Elias Klees
+    - label: Address
+      value: Hans-Hinrichs-Str. 2<br />32756 Detmold<br />Germany
+    - label: Phone
+      value: +49 176 4868 1314
+      href: tel:+4917648681314
+    - label: Mail
+      value: email@janlucaklees.de
+      href: mailto:email@janlucaklees.de
+
+timeline:
+  title: Career Timeline
+  items:
+    - title: Sabbatical
+      isBreak: true
+      position: Fatherhood, MBA,<br />Startup Exploration
+      start: 2024-11-01
+      end: null # ongoing
+
+    - title: LEANATIC GmbH
+      position: '➤ Cross-functional<br />Tech & Product Lead'
+      start: 2020-01-01
+      end: 2024-10-31
+
+    - title: FLOW4 UG
+      position: Full Stack Php Developer
+      start: 2019-09-01
+      end: 2019-11-01
+
+    - title: Medical Sabbatical
+      isBreak: true
+      position: CFS Recovery
+      start: 2018-08-01
+      end: 2019-08-31
+
+    - title: Phrase a.s.
+      position: '➤ Technical Marketing &<br />Customer Success Engineer'
+      start: 2017-04-01
+      end: 2018-07-31
+
+    - title: Interface One GmbH
+      position: Full Stack Node.js Engineer
+      start: 2016-08-01
+      end: 2017-03-01
+
+    - title: University of Hamburg
+      position: Student Assistant
+      start: 2015-10-01
+      end: 2017-03-01
+
+    - title: Freelance
+      position: WordPress Specialist
+      start: 2013-08-01
+      end: 2016-07-06
+
+experiences:
+  title: Relevant Experiences
+  items:
+    - title: LEANATIC GmbH
+      description: >
+        Custom web apps and PIM systems for SMEs in residental construction, civil engineering, and
+        insurance.
+      info:
+        - Boutique Software Agency
+        - Remote
+        - Less than 10 employees
+      items:
+        - start: 2020-01-01
+          end: 2024-10-31
+          title: Cross-functional Tech & Product Lead
+          summary: >
+            Originally hired as a frontend developer, I gradually took ownership of critical
+            delivery functions — product ownership, project coordination, DevOps, Tech Lead. I
+            stepped up where structure was missing, creating clarity, stability, and momentum in an
+            environment that often ran on intuition and urgency.
+          points:
+            - Defined and enforced project workflows that reduced delivery confusion and scope creep
+            - Instituted DevOps practices that slashed setup times and standardized deployments
+            - Transitioned the team to trunk-based development, cutting coordination overhead
+            - Presented directly to clients, improving feedback loops and reducing post-delivery
+              churn
+            - Advocated for outcome-driven thinking in a task-based org, challenging the "just ship
+              it" mindset
+
+    - title: Phrase a.s.
+      description: >
+        Leading software translation platform with developer focussed usp.
+      items:
+        - start: 2017-04-01
+          end: 2018-07-31
+          location: Hamburg
+          title: Technical Marketing & Customer Success Engineer
+          summary: >
+            Joined as a Customer Success Engineer for a developer-focused localization platform.
+            Helped customers integrate our product - often coding solutions - and maintained the
+            knowledge base. Ended as Technical Marketing Lead, optimizing the blog for SEO and
+            performance.
+          points:
+            - Introduced workflow standards and doc practices that scaled with volume.
+            - Reorganized the knowledge base around user roles (dev, translator, manager) - a model
+              later adopted by Marketing.
+            - Reduced blog load times by 60% - contributing to higher SEO visibility.
+          takeaways:
+            - Web Performance
+            - SEO
+            - How Marketing things about and needs development and engineering to be.
+
+# otherExperiences:
+#   title: Relevant Experiences
+#   items:
+#     - title: FLOW4 UG
+#       brief: true
+#       items:
+#         - start: 2019-09-01
+#           end: 2019-11-01
+#           title: Full Stack Php Developer
+#           summary: >
+#             Built flashy WordPress sites. Moved on due to limited growth potential and unclear team
+#             direction.
+
+#     - title: Interface One GmbH
+#       brief: true
+#       items:
+#         - start: 2016-08-01
+#           end: 2017-03-01
+#           title: Full Stack Node.js Engineer
+#           summary: >
+#             Worked part-time during university on a custom whiteboard app for a Chinese education
+#             client using Meteor.js and React. Focused on UX and performance; took the lead on bug
+#             hunting.
+
+#     - title: University of Hamburg
+#       brief: true
+#       items:
+#         - start: 2015-10-01
+#           end: 2017-03-01
+#           title: Student Assistant
+#           summary: >
+#             Helped students grasp structured problem-solving through code; deepened my hands-on
+#             teaching experience.
+
+#     - title: Freelance
+#       brief: true
+#       items:
+#         - start: 2013-08-01
+#           end: 2016-07-06
+#           location: Hamburg
+#           title: WordPress Specialist
+#           summary: >
+#             Teamed up with a designer to build custom WordPress sites for freelance artists.
+#             Delivered clean, highly responsive layouts. Onboarded clients with tailored
+#             walkthroughs.<br /> <span class="font-normal">Highlight</span>: Custom-built an RSVP
+#             system for a high-profile German celebrity.
+#           takeaways:
+#             - Responsiveness
+#             - UX
+#             - Kundenschulung
+
+breaks:
+  title: Career Breaks
+  items:
+    - brief: true
+      items:
+        - start: 2024-11-01
+          title: Sabbatical - Fatherhood, Family & Future Building
+          summary: >
+            Burned out, quit. Since then: 👶 first child, 🎓 started part-time MBA, 🇯🇵 caregiving in
+            Japan, 🚀 startup attempt, 💻 built a baby monitor web app.
+
+    - brief: true
+      items:
+        - start: 2018-08-01
+          end: 2019-08-31
+          title: Medical Sabbatical
+          summary: >
+            Medical sabbatical to recover from CFS. Gained perspective and motivation, strengthened
+            my resilience, and rekindled my thirst for impact and excellence.
+
+education:
+  title: Bildung
+  items:
+    - title: University of Applied Sciences Burgenland
+      info:
+        - Part-time
+        - expected early 2027
+      items:
+        - start: 2024-12-04
+          title: MBA IT-Management (in progress)
+          summary: >
+            Began as a pivot toward leadership, and clarified my career goal: driving value as an
+            IT-Controller at the intersection of tech, processes, and strategy.
+
+    - title: University of Hamburg
+      info:
+        - Japanese minor
+      items:
+        - start: 2014-10-01
+          end: 2017-03-01
+          title: B.Sc. Theoretical Computer Science (no degree)
+          summary: >
+            Left despite an average grade of 1.8 (1 = best; 5 = worst) to pursue real-world software
+            development, which better aligned with my strengths and values.
+
+languages:
+  title: Languages
+  items:
+    - label: German
+      value: Native
+    - label: English
+      value: Professional (C1)
+    - label: Japanese
+      value: Intermediate (B1) <br /> (JLPT N3 expected Dec 2025)

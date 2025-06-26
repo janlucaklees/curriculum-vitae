@@ -3,10 +3,10 @@
 </script>
 
 <span class="flex gap-1 items-start">
-	<span class="pt-[0.08em]">
+	<span class="pr-[0.1em]">
 		<svelte:component
 			this={icon}
-			size="11"
+			size="1em"
 		/>
 	</span>
 

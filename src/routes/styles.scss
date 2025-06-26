@@ -11,39 +11,38 @@
 }
 
 :root {
-	background-color: var(--background);
+	--shadow: #b1b1b1;
+	--bg: #fffffb;
+
+	background-color: var(--bg);
 
 	font-family: 'Rubik', sans-serif;
 	font-size: 11px;
+	font-weight: 300;
 	line-height: 1.25;
 
 	color: var(--color);
 }
 
-:root {
-	--color: #1c1c1c;
-	--color-aside: #fffffb;
-	--subline: #f05e1c;
-	--rating: #f05e1ccc;
+.page {
+	--title: #d08770;
 
-	--background: #fffffb;
-	--page: #fffffb;
-	--shadow: rgba(0, 0, 0, 0.25);
-	--aside: #1f5195;
-	--border: #1c1c1caa;
+	--page: #2e3440;
+	--sidebar: #3b4252;
+
+	--color: #eceff4;
+	--section: #d8dee9;
+	--experience: #d08770;
+	--company: #81a1c1;
+
+	color: var(--color);
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--color: #bdc0ba;
-		--color-aside: #fcfaf2;
-		--subline: #f05e1c;
-		--rating: #f05e1c;
+.page .bg-sidebar {
+	--color: #eceff4;
+	--section: #d8dee9;
+	--experience: #d08770;
+	--company: #81a1c1;
 
-		--background: #0c0c0c;
-		--page: #1c1c1c;
-		--shadow: transparent;
-		--aside: #1a2e44;
-		--border: #1f5195aa;
-	}
+	color: var(--color);
 }

@@ -6,10 +6,12 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				subline: 'var(--subline)',
-				rating: 'var(--rating)',
-				aside: 'var(--aside)',
-				border: 'var(--border)'
+				sidebar: 'var(--sidebar)',
+				primary: 'var(--primary)',
+				title: 'var(--title)',
+				section: 'var(--section)',
+				experience: 'var(--experience)',
+				company: 'var(--company)'
 			},
 			screens: {
 				print: { raw: 'print' }
