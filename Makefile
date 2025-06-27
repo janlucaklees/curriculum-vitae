@@ -1,3 +1,8 @@
+@PHONY=start
+start:
+		docker compose up -d
+		bun start
+
 @PHONY=pdf
 pdf:
 	curl \
@@ -10,6 +15,5 @@ pdf:
 		--form preferCssPageSize=true \
 		-o cv.pdf
 
-@PHONY=gotenberg
-gotenberg:
-	docker run --rm -p 3000:3000 --network host gotenberg/gotenberg:8 gotenberg --api-port=3000
+stop:
+		docker compose stop
